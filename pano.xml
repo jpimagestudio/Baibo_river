@@ -1,339 +1,339 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tour start="node20" hassounds="1" appversion="7.1.11" apprev="21010">
-  <panorama hideabout="1" id="node17">
-    <input levelbiashidpi="1.000" leveltilesize="510" height="3500" levelbias="0.400" overlap="1" levelingroll="0" levelingpitch="0" width="3500" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level height="3500" preload="0" predecode="0" width="3500"/>
-      <level height="1750" preload="0" predecode="0" width="1750"/>
-      <level height="875" preload="0" predecode="0" width="875"/>
-      <level height="437" preload="1" predecode="1" width="437"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama id="node17" hideabout="1">
+    <input leveltilesize="510" overlap="1" width="3500" levelbiashidpi="1.000" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3500" levelbias="0.400" levelingpitch="0" levelingroll="0">
+      <level preload="0" predecode="0" width="3500" height="3500"/>
+      <level preload="0" predecode="0" width="1750" height="1750"/>
+      <level preload="0" predecode="0" width="875" height="875"/>
+      <level preload="1" predecode="1" width="437" height="437"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-59.9684" fovmode="2">
-      <start projection="4" pan="0" fov="100" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="0.3" tilt="-90"/>
-      <max fovfisheye="360" pan="360" fov="120" fovstereographic="330" scaletofit="1" tilt="90"/>
+      <start fov="100" pan="0" tilt="0" projection="4"/>
+      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="0.3"/>
+      <max fov="120" pan="360" scaletofit="1" tilt="90" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata tags="aerial|Pano" nodeid="node17" datetime="2025/9/4 11:13" source="Ｍavic 2 pro" info="" author="" description="從空拍角度往後看可以找到剛剛出發的那座涼亭，往前看也能清楚看見這段溪谷的地形。&#xa;水色非常乾淨，若走累了，旁邊就是天然的冰涼泡腳池，隨時都能停下來休息。&#xa;從這裡開始在河道中行走會有一些比較溜滑的石頭，需要注意腳下的狀況，踏穩後再前進。&#xa;沿路也能看到許多玉石、礫石，邊走邊看地上或是河道的石頭會更有趣。&#xa;這一段幾乎沒有樹蔭，建議做好防曬並記得補水，行走時務必穿溯溪鞋或防滑鞋，會安全很多。" title="空拍視角" latitude="23.87580418" heading="-59.9684" customnodeid="" comment="" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." longitude="121.48044884"/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label backgroundcolor="0xffffff" borderradius="1" height="20" borderalpha="1" textalpha="1" border="1" bordercolor="0x000000" wordwrap="1" backgroundalpha="1" enabled="1" textcolor="0x000000" width="180" background="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot distance="149.521" target="$fwd" tilt="-8.02" description="" title="步行起點" pan="-95.78" skinid="ht_node" id="Point01" url="{node20}"/>
-      <hotspot distance="184.012" target="$fwd" tilt="0" description="" title="攔沙壩" pan="84.1978" skinid="ht_node" id="Point02" url="{node19}"/>
+    <userdata source="Ｍavic 2 pro" info="" tags="aerial|Pano" longitude="121.48044884" comment="" latitude="23.87580418" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." heading="-59.9684" nodeid="node17" description="從空拍角度往後看可以找到剛剛出發的那座涼亭，往前看也能清楚看見這段溪谷的地形。&#xa;水色非常乾淨，若走累了，旁邊就是天然的冰涼泡腳池，隨時都能停下來休息。&#xa;從這裡開始在河道中行走會有一些比較溜滑的石頭，需要注意腳下的狀況，踏穩後再前進。&#xa;沿路也能看到許多玉石、礫石，邊走邊看地上或是河道的石頭會更有趣。&#xa;這一段幾乎沒有樹蔭，建議做好防曬並記得補水，行走時務必穿溯溪鞋或防滑鞋，會安全很多。" author="" datetime="2025/9/4 11:13" customnodeid="" title="空拍視角"/>
+    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundcolor="0xffffff" textcolor="0x000000" textalpha="1" borderradius="1" bordercolor="0x000000" wordwrap="1" height="20" enabled="1" backgroundalpha="1" borderalpha="1" border="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
+      <hotspot pan="-95.78" url="{node20}" tilt="-8.02" target="$fwd" skinid="ht_node" id="Point01" description="" title="步行起點" distance="149.521"/>
+      <hotspot pan="84.1978" url="{node19}" tilt="0" target="$fwd" skinid="ht_node" id="Point02" description="" title="攔沙壩" distance="184.012"/>
     </hotspots>
     <media>
       <sound pan="0.000" id="" tilt="0.000">
         <source url="media/sunny-side-of-fun-248265.mp3"/>
       </sound>
     </media>
-    <transition zoomspeed="2" zoomoutpause="1" softedge="0" delay="none" zoomafteroutfov="40" blendcolor="0x000000" zoomfov="40" blendtime="1" enabled="1" type="crossdissolve" zoomin="0" zoomout="0" zoomafterinfov="140"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
-    <control sensitivity="8" invertcontrol="1" rubberband="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="1" contextvr="0" contextprojections="0" speedwheel="1" simulatemass="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" dblclickfullscreen="0" contextfullscreen="0" invertwheel="0">
+    <transition zoomfov="40" zoomafterinfov="140" softedge="0" zoomspeed="2" delay="none" type="crossdissolve" blendtime="1" zoomoutpause="1" zoomin="0" blendcolor="0x000000" enabled="1" zoomafteroutfov="40" zoomout="0"/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" invertcontrol="1" contextprojections="0" simulatemass="1" speedwheel="1" lockedmouse="0" hideabout="1" contextfullscreen="0" contextvr="0" invertwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" dblclickfullscreen="0" rubberband="0" zoomcentercursor="1" lockedwheel="0">
       <menulink url="https://oring-brother.com" text="JP爵攝數位影像工作室"/>
     </control>
   </panorama>
-  <panorama hideabout="1" id="node20">
-    <input levelbiashidpi="1.000" leveltilesize="510" height="3500" levelbias="0.400" overlap="1" levelingroll="0" levelingpitch="0" width="3500" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level height="3500" preload="0" predecode="0" width="3500"/>
-      <level height="1750" preload="0" predecode="0" width="1750"/>
-      <level height="875" preload="0" predecode="0" width="875"/>
-      <level height="437" preload="1" predecode="1" width="437"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama id="node20" hideabout="1">
+    <input leveltilesize="510" overlap="1" width="3500" levelbiashidpi="1.000" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3500" levelbias="0.400" levelingpitch="0" levelingroll="0">
+      <level preload="0" predecode="0" width="3500" height="3500"/>
+      <level preload="0" predecode="0" width="1750" height="1750"/>
+      <level preload="0" predecode="0" width="875" height="875"/>
+      <level preload="1" predecode="1" width="437" height="437"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="223.649" fovmode="2">
-      <start projection="4" pan="0" fov="100" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="0.3" tilt="-90"/>
-      <max fovfisheye="360" pan="360" fov="120" fovstereographic="330" scaletofit="1" tilt="90"/>
+      <start fov="100" pan="0" tilt="0" projection="4"/>
+      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="0.3"/>
+      <max fov="120" pan="360" scaletofit="1" tilt="90" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata tags="aerial|Pano" nodeid="node20" datetime="2025/9/4 12:30" source="iPhone 16 pro HDR " info="" author="" description="行車的道路終點，往前行道路不通。旁邊有涼亭可以休息，也有自行車駐車位。&#xa;溪水淹過車道，站在車道上就能看到小魚從腳邊游過去，很多人還沒開始走就在這裡先玩起水來。&#xa;往上游大約走二十分鐘，就會抵達網陸流傳的白鮑溪秘境「漂漂河峽谷」。&#xa;&#xa;路不難走，但河道中的石頭滑、部分區段會行走在河道上，建議從這裡開始就穿上溯溪鞋、帶防水袋，由於此區位於山谷內，手機訊號幾乎沒有，如果發生意外時，無法在第一時間獲得醫療救護，所以安全設施要做好，最好是穿著溯溪鞋或是任何具有明顯止滑效果的鞋類。&#xa;&#xa;旅程從這裡開始，大自然的美會越往上游越精彩。" title="步行起點" latitude="23.87689071" heading="223.649" customnodeid="" comment="" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." longitude="121.48131520"/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label backgroundcolor="0xffffff" borderradius="1" height="20" borderalpha="1" textalpha="1" border="1" bordercolor="0x000000" wordwrap="1" backgroundalpha="1" enabled="1" textcolor="0x000000" width="180" background="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot distance="149.521" target="$fwd" tilt="4.74" description="" title="空拍視角" pan="-354.89" skinid="ht_node" id="Point01" url="{node17}"/>
-      <hotspot title="車輛通行終點" pan="-292.16" skinid="ht_info" id="Point03" url="" target="" tilt="-3.83" description="過了河道後是柏油道路終點。車子建議不要開進來，小徑窄小車輛無法迴轉。"/>
+    <userdata source="iPhone 16 pro HDR " info="" tags="aerial|Pano" longitude="121.48131520" comment="" latitude="23.87689071" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." heading="223.649" nodeid="node20" description="行車的道路終點，往前行道路不通。旁邊有涼亭可以休息，也有自行車駐車位。&#xa;溪水淹過車道，站在車道上就能看到小魚從腳邊游過去，很多人還沒開始走就在這裡先玩起水來。&#xa;往上游大約走二十分鐘，就會抵達網陸流傳的白鮑溪秘境「漂漂河峽谷」。&#xa;&#xa;路不難走，但河道中的石頭滑、部分區段會行走在河道上，建議從這裡開始就穿上溯溪鞋、帶防水袋，由於此區位於山谷內，手機訊號幾乎沒有，如果發生意外時，無法在第一時間獲得醫療救護，所以安全設施要做好，最好是穿著溯溪鞋或是任何具有明顯止滑效果的鞋類。&#xa;&#xa;旅程從這裡開始，大自然的美會越往上游越精彩。" author="" datetime="2025/9/4 12:30" customnodeid="" title="步行起點"/>
+    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundcolor="0xffffff" textcolor="0x000000" textalpha="1" borderradius="1" bordercolor="0x000000" wordwrap="1" height="20" enabled="1" backgroundalpha="1" borderalpha="1" border="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
+      <hotspot pan="-354.89" url="{node17}" tilt="4.74" target="$fwd" skinid="ht_node" id="Point01" description="" title="空拍視角" distance="149.521"/>
+      <hotspot skinid="ht_info" pan="-292.16" id="Point03" url="" tilt="-3.83" description="過了河道後是柏油道路終點。車子建議不要開進來，小徑窄小車輛無法迴轉。" title="車輛通行終點" target=""/>
     </hotspots>
     <media>
       <sound pan="0.000" id="" tilt="0.000">
         <source url="media/sunny-side-of-fun-248265.mp3"/>
       </sound>
     </media>
-    <transition zoomspeed="2" zoomoutpause="1" softedge="0" delay="none" zoomafteroutfov="40" blendcolor="0x000000" zoomfov="40" blendtime="1" enabled="1" type="crossdissolve" zoomin="0" zoomout="0" zoomafterinfov="140"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
-    <control sensitivity="8" invertcontrol="1" rubberband="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="1" contextvr="0" contextprojections="0" speedwheel="1" simulatemass="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" dblclickfullscreen="0" contextfullscreen="0" invertwheel="0">
+    <transition zoomfov="40" zoomafterinfov="140" softedge="0" zoomspeed="2" delay="none" type="crossdissolve" blendtime="1" zoomoutpause="1" zoomin="0" blendcolor="0x000000" enabled="1" zoomafteroutfov="40" zoomout="0"/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" invertcontrol="1" contextprojections="0" simulatemass="1" speedwheel="1" lockedmouse="0" hideabout="1" contextfullscreen="0" contextvr="0" invertwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" dblclickfullscreen="0" rubberband="0" zoomcentercursor="1" lockedwheel="0">
       <menulink url="https://oring-brother.com" text="JP爵攝數位影像工作室"/>
     </control>
   </panorama>
-  <panorama hideabout="1" id="node19">
-    <input levelbiashidpi="1.000" leveltilesize="510" height="3500" levelbias="0.400" overlap="1" levelingroll="0" levelingpitch="0" width="3500" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level height="3500" preload="0" predecode="0" width="3500"/>
-      <level height="1750" preload="0" predecode="0" width="1750"/>
-      <level height="875" preload="0" predecode="0" width="875"/>
-      <level height="437" preload="1" predecode="1" width="437"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama id="node19" hideabout="1">
+    <input leveltilesize="510" overlap="1" width="3500" levelbiashidpi="1.000" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3500" levelbias="0.400" levelingpitch="0" levelingroll="0">
+      <level preload="0" predecode="0" width="3500" height="3500"/>
+      <level preload="0" predecode="0" width="1750" height="1750"/>
+      <level preload="0" predecode="0" width="875" height="875"/>
+      <level preload="1" predecode="1" width="437" height="437"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="257.662" fovmode="2">
-      <start projection="4" pan="0" fov="100" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="0.3" tilt="-90"/>
-      <max fovfisheye="360" pan="360" fov="120" fovstereographic="330" scaletofit="1" tilt="90"/>
+      <start fov="100" pan="0" tilt="0" projection="4"/>
+      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="0.3"/>
+      <max fov="120" pan="360" scaletofit="1" tilt="90" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata tags="aerial|Pano" nodeid="node19" datetime="2025/9/4 11:49" source="iPhone 16 pro HDR " info="" author="" description="這裡的攔沙壩高度落差較大，一般會建議先從壩體中央的緩坡走上來，再往左側靠近山壁邊爬上壩頂，比較容易上壩頂。過程中會有小段路需要踩水前行，穿溯溪鞋或防滑鞋可以讓這段路變得輕鬆許多。&#xa;壩旁的水池水色清透，呈現淡藍綠色，是個非常清涼的戲水區域。&#xa;如果走得有點累，這裡是很好的休息點，可以泡泡水、補水、調整體力。&#xa;但因為霸體高度差較大，爬上壩體時一定要注意腳下施力點，留意溼滑的地面。&#xa;" title="攔沙壩" latitude="23.87446255" heading="257.662" customnodeid="" comment="" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." longitude="121.47938937"/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label backgroundcolor="0xffffff" borderradius="1" height="20" borderalpha="1" textalpha="1" border="1" bordercolor="0x000000" wordwrap="1" backgroundalpha="1" enabled="1" textcolor="0x000000" width="180" background="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot distance="184.012" target="$fwd" tilt="0" description="" title="空拍視角" pan="221.829" skinid="ht_node" id="Point01" url="{node17}"/>
-      <hotspot distance="107.65" target="$fwd" tilt="26.2" description="" title="空拍視角" pan="34.4488" skinid="ht_node" id="Point03" url="{node23}"/>
-      <hotspot title="由此處爬上來" pan="-219.5" skinid="ht_info" id="Point02" url="" target="" tilt="-2.64" description="攔沙壩霸體高度落差約一公尺左右，由此處踩踏左邊的山壁蹬上來比較容易爬上攔沙壩。"/>
-      <hotspot title="小水坑" pan="-132.66" skinid="ht_info" id="Point04" url="" target="" tilt="-37.67" description="小心此水坑有青苔容易滑腳，踩踏時務必確保腳步站穩後再踏出另外一步"/>
+    <userdata source="iPhone 16 pro HDR " info="" tags="aerial|Pano" longitude="121.47938937" comment="" latitude="23.87446255" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." heading="257.662" nodeid="node19" description="這裡的攔沙壩高度落差較大，一般會建議先從壩體中央的緩坡走上來，再往左側靠近山壁邊爬上壩頂，比較容易上壩頂。過程中會有小段路需要踩水前行，穿溯溪鞋或防滑鞋可以讓這段路變得輕鬆許多。&#xa;壩旁的水池水色清透，呈現淡藍綠色，是個非常清涼的戲水區域。&#xa;如果走得有點累，這裡是很好的休息點，可以泡泡水、補水、調整體力。&#xa;但因為霸體高度差較大，爬上壩體時一定要注意腳下施力點，留意溼滑的地面。&#xa;" author="" datetime="2025/9/4 11:49" customnodeid="" title="攔沙壩"/>
+    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundcolor="0xffffff" textcolor="0x000000" textalpha="1" borderradius="1" bordercolor="0x000000" wordwrap="1" height="20" enabled="1" backgroundalpha="1" borderalpha="1" border="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
+      <hotspot pan="221.829" url="{node17}" tilt="0" target="$fwd" skinid="ht_node" id="Point01" description="" title="空拍視角" distance="184.012"/>
+      <hotspot pan="34.4488" url="{node23}" tilt="26.2" target="$fwd" skinid="ht_node" id="Point03" description="" title="空拍視角" distance="107.65"/>
+      <hotspot skinid="ht_info" pan="-219.5" id="Point02" url="" tilt="-2.64" description="攔沙壩霸體高度落差約一公尺左右，由此處踩踏左邊的山壁蹬上來比較容易爬上攔沙壩。" title="由此處爬上來" target=""/>
+      <hotspot skinid="ht_info" pan="-132.66" id="Point04" url="" tilt="-37.67" description="小心此水坑有青苔容易滑腳，踩踏時務必確保腳步站穩後再踏出另外一步" title="小水坑" target=""/>
     </hotspots>
     <media>
       <sound pan="0.000" id="" tilt="0.000">
         <source url="media/sunny-side-of-fun-248265.mp3"/>
       </sound>
     </media>
-    <transition zoomspeed="2" zoomoutpause="1" softedge="0" delay="none" zoomafteroutfov="40" blendcolor="0x000000" zoomfov="40" blendtime="1" enabled="1" type="crossdissolve" zoomin="0" zoomout="0" zoomafterinfov="140"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
-    <control sensitivity="8" invertcontrol="1" rubberband="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="1" contextvr="0" contextprojections="0" speedwheel="1" simulatemass="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" dblclickfullscreen="0" contextfullscreen="0" invertwheel="0">
+    <transition zoomfov="40" zoomafterinfov="140" softedge="0" zoomspeed="2" delay="none" type="crossdissolve" blendtime="1" zoomoutpause="1" zoomin="0" blendcolor="0x000000" enabled="1" zoomafteroutfov="40" zoomout="0"/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" invertcontrol="1" contextprojections="0" simulatemass="1" speedwheel="1" lockedmouse="0" hideabout="1" contextfullscreen="0" contextvr="0" invertwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" dblclickfullscreen="0" rubberband="0" zoomcentercursor="1" lockedwheel="0">
       <menulink url="https://oring-brother.com" text="JP爵攝數位影像工作室"/>
     </control>
   </panorama>
-  <panorama hideabout="1" id="node23">
-    <input levelbiashidpi="1.000" leveltilesize="510" height="3500" levelbias="0.400" overlap="1" levelingroll="0" levelingpitch="0" width="3500" leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level height="3500" preload="0" predecode="0" width="3500"/>
-      <level height="1750" preload="0" predecode="0" width="1750"/>
-      <level height="875" preload="0" predecode="0" width="875"/>
-      <level height="437" preload="1" predecode="1" width="437"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama id="node23" hideabout="1">
+    <input leveltilesize="510" overlap="1" width="3500" levelbiashidpi="1.000" leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3500" levelbias="0.400" levelingpitch="0" levelingroll="0">
+      <level preload="0" predecode="0" width="3500" height="3500"/>
+      <level preload="0" predecode="0" width="1750" height="1750"/>
+      <level preload="0" predecode="0" width="875" height="875"/>
+      <level preload="1" predecode="1" width="437" height="437"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="7.61789" fovmode="2">
-      <start projection="4" pan="0" fov="100" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="0.3" tilt="-90"/>
-      <max fovfisheye="360" pan="360" fov="120" fovstereographic="330" scaletofit="1" tilt="90"/>
+      <start fov="100" pan="0" tilt="0" projection="4"/>
+      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="0.3"/>
+      <max fov="120" pan="360" scaletofit="1" tilt="90" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata tags="aerial|Pano" nodeid="node23" datetime="2025/9/5 12:09" source="Mavic 2 Pro" info="" author="" description="往下看，整段溪谷在兩側山壁間延伸，溪床越往上游越來越窄，距離主要目的地已經很近了。&#xa;再往上游走大約三、四十公尺，就會抵達傳說中的秘境。&#xa;&#xa;底下的溪流右側可以看見一條更細的支流注入主溪，沿著這個支流往上走，會發現一條不起眼的小徑藏在綠蔭裡。&#xa;順著小徑前行，能抵達上游更深處的另一個攔沙壩，那裡通常是溯溪團體的活動終點，也是一個相對寧靜的自然景點，往那裡的溪谷轉折明顯、坡度較大，若打算前往支流小徑或更上游區域，溯溪鞋、防滑鞋仍然是必要配備。" title="空拍視角" latitude="23.87391315" heading="7.61789" customnodeid="" comment="" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." longitude="121.47851765" altitude="60.00"/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label backgroundcolor="0xffffff" borderradius="1" height="20" borderalpha="1" textalpha="1" border="1" bordercolor="0x000000" wordwrap="1" backgroundalpha="1" enabled="1" textcolor="0x000000" width="180" background="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot distance="107.65" target="$fwd" tilt="-42.02" description="" title="攔沙壩" pan="-35.9365" skinid="ht_node" id="Point01" url="{node19}"/>
-      <hotspot distance="25.828" target="$fwd" tilt="-81.8" description="" title="河道" pan="167.817" skinid="ht_node" id="Point02" url="{node18}"/>
+    <userdata source="Mavic 2 Pro" info="" tags="aerial|Pano" longitude="121.47851765" altitude="60.00" comment="" latitude="23.87391315" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." heading="7.61789" nodeid="node23" description="往下看，整段溪谷在兩側山壁間延伸，溪床越往上游越來越窄，距離主要目的地已經很近了。&#xa;再往上游走大約三、四十公尺，就會抵達傳說中的秘境。&#xa;&#xa;底下的溪流右側可以看見一條更細的支流注入主溪，沿著這個支流往上走，會發現一條不起眼的小徑藏在綠蔭裡。&#xa;順著小徑前行，能抵達上游更深處的另一個攔沙壩，那裡通常是溯溪團體的活動終點，也是一個相對寧靜的自然景點，往那裡的溪谷轉折明顯、坡度較大，若打算前往支流小徑或更上游區域，溯溪鞋、防滑鞋仍然是必要配備。" author="" datetime="2025/9/5 12:09" customnodeid="" title="空拍視角"/>
+    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundcolor="0xffffff" textcolor="0x000000" textalpha="1" borderradius="1" bordercolor="0x000000" wordwrap="1" height="20" enabled="1" backgroundalpha="1" borderalpha="1" border="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
+      <hotspot pan="-35.9365" url="{node19}" tilt="-42.02" target="$fwd" skinid="ht_node" id="Point01" description="" title="攔沙壩" distance="107.65"/>
+      <hotspot pan="167.817" url="{node18}" tilt="-81.8" target="$fwd" skinid="ht_node" id="Point02" description="" title="河道" distance="25.828"/>
     </hotspots>
     <media>
       <sound pan="0.000" id="" tilt="0.000">
         <source url="media/sunny-side-of-fun-248265.mp3"/>
       </sound>
     </media>
-    <transition zoomspeed="2" zoomoutpause="1" softedge="0" delay="none" zoomafteroutfov="40" blendcolor="0x000000" zoomfov="40" blendtime="1" enabled="1" type="crossdissolve" zoomin="0" zoomout="0" zoomafterinfov="140"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
-    <control sensitivity="8" invertcontrol="1" rubberband="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="1" contextvr="0" contextprojections="0" speedwheel="1" simulatemass="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" dblclickfullscreen="0" contextfullscreen="0" invertwheel="0">
+    <transition zoomfov="40" zoomafterinfov="140" softedge="0" zoomspeed="2" delay="none" type="crossdissolve" blendtime="1" zoomoutpause="1" zoomin="0" blendcolor="0x000000" enabled="1" zoomafteroutfov="40" zoomout="0"/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" invertcontrol="1" contextprojections="0" simulatemass="1" speedwheel="1" lockedmouse="0" hideabout="1" contextfullscreen="0" contextvr="0" invertwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" dblclickfullscreen="0" rubberband="0" zoomcentercursor="1" lockedwheel="0">
       <menulink url="https://oring-brother.com" text="JP爵攝數位影像工作室"/>
     </control>
   </panorama>
-  <panorama hideabout="1" id="node18">
-    <input levelbiashidpi="1.000" leveltilesize="510" height="3500" levelbias="0.400" overlap="1" levelingroll="0" levelingpitch="0" width="3500" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level height="3500" preload="0" predecode="0" width="3500"/>
-      <level height="1750" preload="0" predecode="0" width="1750"/>
-      <level height="875" preload="0" predecode="0" width="875"/>
-      <level height="437" preload="1" predecode="1" width="437"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama id="node18" hideabout="1">
+    <input leveltilesize="510" overlap="1" width="3500" levelbiashidpi="1.000" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3500" levelbias="0.400" levelingpitch="0" levelingroll="0">
+      <level preload="0" predecode="0" width="3500" height="3500"/>
+      <level preload="0" predecode="0" width="1750" height="1750"/>
+      <level preload="0" predecode="0" width="875" height="875"/>
+      <level preload="1" predecode="1" width="437" height="437"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-145.452" fovmode="2">
-      <start projection="4" pan="0" fov="100" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="0.3" tilt="-90"/>
-      <max fovfisheye="360" pan="360" fov="120" fovstereographic="330" scaletofit="1" tilt="90"/>
+      <start fov="100" pan="0" tilt="0" projection="4"/>
+      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="0.3"/>
+      <max fov="120" pan="360" scaletofit="1" tilt="90" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata tags="aerial|Pano" nodeid="node18" datetime="2025/9/4 11:17" source="Mavic 2 Pro" info="" author="" description="從這裡起，溪谷的寬度開始明顯收窄，水色也轉成更透亮的淡藍綠，代表著著名的「漂漂河峽谷」就在前面不遠處。&#xa;照片左側可以看到一小片樹蔭覆蓋的平坦區域，這裡相對乾爽、陰涼，是走到目的地前最剛好的休息點。&#xa;許多人會在這裡暫放背包、補充水分、調整裝備，再往前就是比較狹窄、需要踩穩腳步再前行的路段。&#xa;地面多為大石與裸露岩塊，此路段會比前面更滑溜一些，穿著溯溪鞋或防滑鞋會讓這段更容易前進。" title="河道" latitude="23.87369732" heading="-145.452" customnodeid="" comment="" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." longitude="121.47842377"/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label backgroundcolor="0xffffff" borderradius="1" height="20" borderalpha="1" textalpha="1" border="1" bordercolor="0x000000" wordwrap="1" backgroundalpha="1" enabled="1" textcolor="0x000000" width="180" background="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot distance="25.828" target="$fwd" tilt="13.14" description="" title="空拍視角" pan="-191.002" skinid="ht_node" id="Point01" url="{node23}"/>
-      <hotspot distance="39.1834" target="$fwd" tilt="-9.61" description="" title="河谷淺水區" pan="356.11" skinid="ht_node" id="Point02" url="{node21}"/>
+    <userdata source="Mavic 2 Pro" info="" tags="aerial|Pano" longitude="121.47842377" comment="" latitude="23.87369732" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." heading="-145.452" nodeid="node18" description="從這裡起，溪谷的寬度開始明顯收窄，水色也轉成更透亮的淡藍綠，代表著著名的「漂漂河峽谷」就在前面不遠處。&#xa;照片左側可以看到一小片樹蔭覆蓋的平坦區域，這裡相對乾爽、陰涼，是走到目的地前最剛好的休息點。&#xa;許多人會在這裡暫放背包、補充水分、調整裝備，再往前就是比較狹窄、需要踩穩腳步再前行的路段。&#xa;地面多為大石與裸露岩塊，此路段會比前面更滑溜一些，穿著溯溪鞋或防滑鞋會讓這段更容易前進。" author="" datetime="2025/9/4 11:17" customnodeid="" title="河道"/>
+    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundcolor="0xffffff" textcolor="0x000000" textalpha="1" borderradius="1" bordercolor="0x000000" wordwrap="1" height="20" enabled="1" backgroundalpha="1" borderalpha="1" border="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
+      <hotspot pan="-191.002" url="{node23}" tilt="13.14" target="$fwd" skinid="ht_node" id="Point01" description="" title="空拍視角" distance="25.828"/>
+      <hotspot pan="356.11" url="{node21}" tilt="-9.61" target="$fwd" skinid="ht_node" id="Point02" description="" title="河谷淺水區" distance="39.1834"/>
     </hotspots>
     <media>
       <sound pan="0.000" id="" tilt="0.000">
         <source url="media/sunny-side-of-fun-248265.mp3"/>
       </sound>
     </media>
-    <transition zoomspeed="2" zoomoutpause="1" softedge="0" delay="none" zoomafteroutfov="40" blendcolor="0x000000" zoomfov="40" blendtime="1" enabled="1" type="crossdissolve" zoomin="0" zoomout="0" zoomafterinfov="140"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
-    <control sensitivity="8" invertcontrol="1" rubberband="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="1" contextvr="0" contextprojections="0" speedwheel="1" simulatemass="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" dblclickfullscreen="0" contextfullscreen="0" invertwheel="0">
+    <transition zoomfov="40" zoomafterinfov="140" softedge="0" zoomspeed="2" delay="none" type="crossdissolve" blendtime="1" zoomoutpause="1" zoomin="0" blendcolor="0x000000" enabled="1" zoomafteroutfov="40" zoomout="0"/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" invertcontrol="1" contextprojections="0" simulatemass="1" speedwheel="1" lockedmouse="0" hideabout="1" contextfullscreen="0" contextvr="0" invertwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" dblclickfullscreen="0" rubberband="0" zoomcentercursor="1" lockedwheel="0">
       <menulink url="https://oring-brother.com" text="JP爵攝數位影像工作室"/>
     </control>
   </panorama>
-  <panorama hideabout="1" id="node21">
-    <input levelbiashidpi="1.000" leveltilesize="510" height="3500" levelbias="0.400" overlap="1" levelingroll="0" levelingpitch="0" width="3500" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level height="3500" preload="0" predecode="0" width="3500"/>
-      <level height="1750" preload="0" predecode="0" width="1750"/>
-      <level height="875" preload="0" predecode="0" width="875"/>
-      <level height="437" preload="1" predecode="1" width="437"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama id="node21" hideabout="1">
+    <input leveltilesize="510" overlap="1" width="3500" levelbiashidpi="1.000" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3500" levelbias="0.400" levelingpitch="0" levelingroll="0">
+      <level preload="0" predecode="0" width="3500" height="3500"/>
+      <level preload="0" predecode="0" width="1750" height="1750"/>
+      <level preload="0" predecode="0" width="875" height="875"/>
+      <level preload="1" predecode="1" width="437" height="437"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="184" fovmode="2">
-      <start projection="4" pan="0" fov="100" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="0.3" tilt="-90"/>
-      <max fovfisheye="360" pan="360" fov="120" fovstereographic="330" scaletofit="1" tilt="90"/>
+      <start fov="100" pan="0" tilt="0" projection="4"/>
+      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="0.3"/>
+      <max fov="120" pan="360" scaletofit="1" tilt="90" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata tags="aerial|Pano" nodeid="node21" datetime="2025/9/5 11:08" source="iPhone 16 pro HDR " info="" author="" description="這裡就是大家一路走來最期待的漂漂河峽谷的末端。&#xa;&#xa;枯水期的水深大約只到成年人小腿一半，水色透明到連底部的礫石紋路與小魚游動都能清楚看到，因為水流平穩、水深安全，是小朋友戲水最推薦的區域。&#xa;&#xa;再往前約十公尺後，溪谷突然收窄，水深會明顯變深，是大人漂浮、體驗水流的區域。&#xa;若同行中有孩童，建議以此區作為活動範圍最剛好。&#xa;&#xa;不知道是否是此地很容易把石頭立起來，可以看到周邊有許多石頭立起來。在水流不斷沖刷的情況下還穩穩地立著，這些創作者的功力不凡。" title="河谷淺水區" latitude="23.87337602" heading="184" customnodeid="" comment="" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." longitude="121.47826552"/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label backgroundcolor="0xffffff" borderradius="1" height="20" borderalpha="1" textalpha="1" border="1" bordercolor="0x000000" wordwrap="1" backgroundalpha="1" enabled="1" textcolor="0x000000" width="180" background="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot distance="60.5619" target="$fwd" tilt="0.92" description="" title="漂漂河・末段" pan="7.42901" skinid="ht_node" id="Point02" url="{node25}"/>
-      <hotspot distance="39.1834" target="$fwd" tilt="0" description="" title="河道" pan="159.754" skinid="ht_node" id="Point01" url="{node18}"/>
+    <userdata source="iPhone 16 pro HDR " info="" tags="aerial|Pano" longitude="121.47826552" comment="" latitude="23.87337602" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." heading="184" nodeid="node21" description="這裡就是大家一路走來最期待的漂漂河峽谷的末端。&#xa;&#xa;枯水期的水深大約只到成年人小腿一半，水色透明到連底部的礫石紋路與小魚游動都能清楚看到，因為水流平穩、水深安全，是小朋友戲水最推薦的區域。&#xa;&#xa;再往前約十公尺後，溪谷突然收窄，水深會明顯變深，是大人漂浮、體驗水流的區域。&#xa;若同行中有孩童，建議以此區作為活動範圍最剛好。&#xa;&#xa;不知道是否是此地很容易把石頭立起來，可以看到周邊有許多石頭立起來。在水流不斷沖刷的情況下還穩穩地立著，這些創作者的功力不凡。" author="" datetime="2025/9/5 11:08" customnodeid="" title="河谷淺水區"/>
+    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundcolor="0xffffff" textcolor="0x000000" textalpha="1" borderradius="1" bordercolor="0x000000" wordwrap="1" height="20" enabled="1" backgroundalpha="1" borderalpha="1" border="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
+      <hotspot pan="7.42901" url="{node25}" tilt="0.92" target="$fwd" skinid="ht_node" id="Point02" description="" title="漂漂河・末段" distance="60.5619"/>
+      <hotspot pan="159.754" url="{node18}" tilt="0" target="$fwd" skinid="ht_node" id="Point01" description="" title="河道" distance="39.1834"/>
     </hotspots>
     <media>
       <sound pan="0.000" id="" tilt="0.000">
         <source url="media/sunny-side-of-fun-248265.mp3"/>
       </sound>
     </media>
-    <transition zoomspeed="2" zoomoutpause="1" softedge="0" delay="none" zoomafteroutfov="40" blendcolor="0x000000" zoomfov="40" blendtime="1" enabled="1" type="crossdissolve" zoomin="0" zoomout="0" zoomafterinfov="140"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
-    <control sensitivity="8" invertcontrol="1" rubberband="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="1" contextvr="0" contextprojections="0" speedwheel="1" simulatemass="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" dblclickfullscreen="0" contextfullscreen="0" invertwheel="0">
+    <transition zoomfov="40" zoomafterinfov="140" softedge="0" zoomspeed="2" delay="none" type="crossdissolve" blendtime="1" zoomoutpause="1" zoomin="0" blendcolor="0x000000" enabled="1" zoomafteroutfov="40" zoomout="0"/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" invertcontrol="1" contextprojections="0" simulatemass="1" speedwheel="1" lockedmouse="0" hideabout="1" contextfullscreen="0" contextvr="0" invertwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" dblclickfullscreen="0" rubberband="0" zoomcentercursor="1" lockedwheel="0">
       <menulink url="https://oring-brother.com" text="JP爵攝數位影像工作室"/>
     </control>
   </panorama>
-  <panorama hideabout="1" id="node25">
-    <input levelbiashidpi="1.000" leveltilesize="510" height="4000" levelbias="0.400" overlap="1" levelingroll="0" levelingpitch="0" width="4000" leveltileurl="tiles/node25/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level height="4000" preload="0" predecode="0" width="4000"/>
-      <level height="2000" preload="0" predecode="0" width="2000"/>
-      <level height="1000" preload="0" predecode="0" width="1000"/>
-      <level height="500" preload="1" predecode="1" width="500"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama id="node25" hideabout="1">
+    <input leveltilesize="510" overlap="1" width="4000" levelbiashidpi="1.000" leveltileurl="tiles/node25/cf_%c/l_%l/c_%x/tile_%y.jpg" height="4000" levelbias="0.400" levelingpitch="0" levelingroll="0">
+      <level preload="0" predecode="0" width="4000" height="4000"/>
+      <level preload="0" predecode="0" width="2000" height="2000"/>
+      <level preload="0" predecode="0" width="1000" height="1000"/>
+      <level preload="1" predecode="1" width="500" height="500"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="184.122" fovmode="2">
-      <start projection="4" pan="0" fov="100" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="0.3" tilt="-90"/>
-      <max fovfisheye="360" pan="360" fov="120" fovstereographic="330" scaletofit="1" tilt="90"/>
+      <start fov="100" pan="0" tilt="0" projection="4"/>
+      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="0.3"/>
+      <max fov="120" pan="360" scaletofit="1" tilt="90" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata tags="iphone16pro|Pano" nodeid="node25" datetime="2025/9/5 11:01" source="iPhone 16 pro HDR " info="" author="" description="這裡是漂漂河峽谷中最清涼、最能感受到山林包覆感的一段。&#xa;此時的水深大約到成年人的腰部，水色透明而冷冽，是夏天最受歡迎的漂浮區域。&#xa;&#xa;有許多遊客帶著泳圈、充氣小船在水面慢慢飄著，在這種山林光影下漂浮，是非常放鬆的體驗。&#xa;&#xa;大雨過後水位會升高，溪谷右邊的大岩石也會變成年輕人常挑戰的跳水點，不過水深會因季節和雨量變化，跳水前務必確認水深是否能夠安全進行跳水活動。" title="漂漂河・末段" latitude="23.87283160" heading="184.122" customnodeid="" comment="" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." longitude="121.47824836" altitude="193.98"/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label backgroundcolor="0xffffff" borderradius="1" height="20" borderalpha="1" textalpha="1" border="1" bordercolor="0x000000" wordwrap="1" backgroundalpha="1" enabled="1" textcolor="0x000000" width="180" background="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot distance="60.5619" target="$fwd" tilt="0" description="" title="河谷淺水區" pan="182.471" skinid="ht_node" id="Point01" url="{node21}"/>
-      <hotspot distance="51.8283" target="$fwd" tilt="-0.69" description="" title="漂漂河・深水段" pan="-356.23" skinid="ht_node" id="Point02" url="{node26}"/>
+    <userdata source="iPhone 16 pro HDR " info="" tags="iphone16pro|Pano" longitude="121.47824836" altitude="193.98" comment="" latitude="23.87283160" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." heading="184.122" nodeid="node25" description="這裡是漂漂河峽谷中最清涼、最能感受到山林包覆感的一段。&#xa;此時的水深大約到成年人的腰部，水色透明而冷冽，是夏天最受歡迎的漂浮區域。&#xa;&#xa;有許多遊客帶著泳圈、充氣小船在水面慢慢飄著，在這種山林光影下漂浮，是非常放鬆的體驗。&#xa;&#xa;大雨過後水位會升高，溪谷右邊的大岩石也會變成年輕人常挑戰的跳水點，不過水深會因季節和雨量變化，跳水前務必確認水深是否能夠安全進行跳水活動。" author="" datetime="2025/9/5 11:01" customnodeid="" title="漂漂河・末段"/>
+    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundcolor="0xffffff" textcolor="0x000000" textalpha="1" borderradius="1" bordercolor="0x000000" wordwrap="1" height="20" enabled="1" backgroundalpha="1" borderalpha="1" border="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
+      <hotspot pan="182.471" url="{node21}" tilt="0" target="$fwd" skinid="ht_node" id="Point01" description="" title="河谷淺水區" distance="60.5619"/>
+      <hotspot pan="-356.23" url="{node26}" tilt="-0.69" target="$fwd" skinid="ht_node" id="Point02" description="" title="漂漂河・深水段" distance="51.8283"/>
     </hotspots>
     <media>
       <sound pan="0.000" id="" tilt="0.000">
         <source url="media/sunny-side-of-fun-248265.mp3"/>
       </sound>
     </media>
-    <transition zoomspeed="2" zoomoutpause="1" softedge="0" delay="none" zoomafteroutfov="40" blendcolor="0x000000" zoomfov="40" blendtime="1" enabled="1" type="crossdissolve" zoomin="0" zoomout="0" zoomafterinfov="140"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
-    <control sensitivity="8" invertcontrol="1" rubberband="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="1" contextvr="0" contextprojections="0" speedwheel="1" simulatemass="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" dblclickfullscreen="0" contextfullscreen="0" invertwheel="0">
+    <transition zoomfov="40" zoomafterinfov="140" softedge="0" zoomspeed="2" delay="none" type="crossdissolve" blendtime="1" zoomoutpause="1" zoomin="0" blendcolor="0x000000" enabled="1" zoomafteroutfov="40" zoomout="0"/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" invertcontrol="1" contextprojections="0" simulatemass="1" speedwheel="1" lockedmouse="0" hideabout="1" contextfullscreen="0" contextvr="0" invertwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" dblclickfullscreen="0" rubberband="0" zoomcentercursor="1" lockedwheel="0">
       <menulink url="https://oring-brother.com" text="JP爵攝數位影像工作室"/>
     </control>
   </panorama>
-  <panorama hideabout="1" id="node26">
-    <input levelbiashidpi="1.000" leveltilesize="510" height="2577" levelbias="0.400" overlap="1" levelingroll="0" levelingpitch="0" width="2577" leveltileurl="tiles/node26/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level height="2577" preload="0" predecode="0" width="2577"/>
-      <level height="1288" preload="0" predecode="0" width="1288"/>
-      <level height="644" preload="0" predecode="0" width="644"/>
-      <level height="322" preload="1" predecode="1" width="322"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama id="node26" hideabout="1">
+    <input leveltilesize="510" overlap="1" width="2577" levelbiashidpi="1.000" leveltileurl="tiles/node26/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2577" levelbias="0.400" levelingpitch="0" levelingroll="0">
+      <level preload="0" predecode="0" width="2577" height="2577"/>
+      <level preload="0" predecode="0" width="1288" height="1288"/>
+      <level preload="0" predecode="0" width="644" height="644"/>
+      <level preload="1" predecode="1" width="322" height="322"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-90.8342" fovmode="2">
-      <start projection="4" pan="0" fov="100" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="0.3" tilt="-90"/>
-      <max fovfisheye="360" pan="360" fov="120" fovstereographic="330" scaletofit="1" tilt="90"/>
+      <start fov="100" pan="0" tilt="0" projection="4"/>
+      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="0.3"/>
+      <max fov="120" pan="360" scaletofit="1" tilt="90" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata tags="insta360x4|PTGuioutput" nodeid="node26" datetime="2025/9/5 11:37" source="Insta360 X4" info="" author="" description="此處水流緩慢，水深約莫及腰（枯水期）兩側岩壁造就了峽谷樣貌，就是「漂漂河峽谷」這個稱號的由來。水質清澈見底，在陽光的照射作用下，溪水成碧綠色，小魚隨處可見。" title="漂漂河・深水段" latitude="23.87237284" heading="-90.8342" customnodeid="" comment="" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." longitude="121.47815824" altitude="0.00"/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label backgroundcolor="0xffffff" borderradius="1" height="20" borderalpha="1" textalpha="1" border="1" bordercolor="0x000000" wordwrap="1" backgroundalpha="1" enabled="1" textcolor="0x000000" width="180" background="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot distance="46.7009" target="$fwd" tilt="3.63" description="" title="漂漂河・前段" pan="-302.47" skinid="ht_node" id="Point01" url="{node27}"/>
-      <hotspot distance="51.8283" target="$fwd" tilt="-0.35" description="" title="漂漂河・末段" pan="-124.868" skinid="ht_node" id="Point02" url="{node25}"/>
+    <userdata source="Insta360 X4" info="" tags="insta360x4|PTGuioutput" longitude="121.47815824" altitude="0.00" comment="" latitude="23.87237284" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." heading="-90.8342" nodeid="node26" description="此處水流緩慢，水深約莫及腰（枯水期）兩側岩壁造就了峽谷樣貌，就是「漂漂河峽谷」這個稱號的由來。水質清澈見底，在陽光的照射作用下，溪水成碧綠色，小魚隨處可見。" author="" datetime="2025/9/5 11:37" customnodeid="" title="漂漂河・深水段"/>
+    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundcolor="0xffffff" textcolor="0x000000" textalpha="1" borderradius="1" bordercolor="0x000000" wordwrap="1" height="20" enabled="1" backgroundalpha="1" borderalpha="1" border="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
+      <hotspot pan="-302.47" url="{node27}" tilt="3.63" target="$fwd" skinid="ht_node" id="Point01" description="" title="漂漂河・前段" distance="46.7009"/>
+      <hotspot pan="-124.868" url="{node25}" tilt="-0.35" target="$fwd" skinid="ht_node" id="Point02" description="" title="漂漂河・末段" distance="51.8283"/>
     </hotspots>
     <media>
       <sound pan="0.000" id="" tilt="0.000">
         <source url="media/sunny-side-of-fun-248265.mp3"/>
       </sound>
     </media>
-    <transition zoomspeed="2" zoomoutpause="1" softedge="0" delay="none" zoomafteroutfov="40" blendcolor="0x000000" zoomfov="40" blendtime="1" enabled="1" type="crossdissolve" zoomin="0" zoomout="0" zoomafterinfov="140"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
-    <control sensitivity="8" invertcontrol="1" rubberband="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="1" contextvr="0" contextprojections="0" speedwheel="1" simulatemass="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" dblclickfullscreen="0" contextfullscreen="0" invertwheel="0">
+    <transition zoomfov="40" zoomafterinfov="140" softedge="0" zoomspeed="2" delay="none" type="crossdissolve" blendtime="1" zoomoutpause="1" zoomin="0" blendcolor="0x000000" enabled="1" zoomafteroutfov="40" zoomout="0"/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" invertcontrol="1" contextprojections="0" simulatemass="1" speedwheel="1" lockedmouse="0" hideabout="1" contextfullscreen="0" contextvr="0" invertwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" dblclickfullscreen="0" rubberband="0" zoomcentercursor="1" lockedwheel="0">
       <menulink url="https://oring-brother.com" text="JP爵攝數位影像工作室"/>
     </control>
   </panorama>
-  <panorama hideabout="1" id="node27">
-    <input levelbiashidpi="1.000" leveltilesize="510" height="2572" levelbias="0.400" overlap="1" levelingroll="0" levelingpitch="0" width="2572" leveltileurl="tiles/node27/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level height="2572" preload="0" predecode="0" width="2572"/>
-      <level height="1286" preload="0" predecode="0" width="1286"/>
-      <level height="643" preload="0" predecode="0" width="643"/>
-      <level height="321" preload="1" predecode="1" width="321"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama id="node27" hideabout="1">
+    <input leveltilesize="510" overlap="1" width="2572" levelbiashidpi="1.000" leveltileurl="tiles/node27/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2572" levelbias="0.400" levelingpitch="0" levelingroll="0">
+      <level preload="0" predecode="0" width="2572" height="2572"/>
+      <level preload="0" predecode="0" width="1286" height="1286"/>
+      <level preload="0" predecode="0" width="643" height="643"/>
+      <level preload="1" predecode="1" width="321" height="321"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-9.6887" fovmode="2">
-      <start projection="4" pan="0" fov="100" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="0.3" tilt="-90"/>
-      <max fovfisheye="360" pan="360" fov="120" fovstereographic="330" scaletofit="1" tilt="90"/>
+      <start fov="100" pan="0" tilt="0" projection="4"/>
+      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="0.3"/>
+      <max fov="120" pan="360" scaletofit="1" tilt="90" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata tags="insta360x4|PTGuioutput" nodeid="node27" datetime="2025/9/5 11:40" source="Insta360 X4" info="" author="" description="再往前探索就是另外一個秘境，不過要先越過高約1.5公尺落差的岩石堆，爬過岩石後是另外一個淺灘區。當豐水期時，那裡也是個戲水的好區域，並且可以使用小型獨木舟進行泛舟活動。&#xa;溯溪者需要迎著上方的水流攀爬，是較具挑戰性的路段，建議具備合宜裝備（溯溪鞋、防寒衣、安全帽）並且攜伴同行再嘗試通過。&#xa;" title="漂漂河・前段" latitude="23.87196568" heading="-9.6887" customnodeid="" comment="" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." longitude="121.47804558" altitude="0.00"/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label backgroundcolor="0xffffff" borderradius="1" height="20" borderalpha="1" textalpha="1" border="1" bordercolor="0x000000" wordwrap="1" backgroundalpha="1" enabled="1" textcolor="0x000000" width="180" background="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot distance="46.7009" target="$fwd" tilt="1.04" description="" title="漂漂河・深水段" pan="-30.908" skinid="ht_node" id="Point01" url="{node26}"/>
-      <hotspot distance="56.9075" target="$fwd" tilt="22.62" description="" title="秘境・Ｘ" pan="162.953" skinid="ht_node" id="Point02" url="{node24}"/>
+    <userdata source="Insta360 X4" info="" tags="insta360x4|PTGuioutput" longitude="121.47804558" altitude="0.00" comment="" latitude="23.87196568" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." heading="-9.6887" nodeid="node27" description="再往前探索就是另外一個秘境，不過要先越過高約1.5公尺落差的岩石堆，爬過岩石後是另外一個淺灘區。當豐水期時，那裡也是個戲水的好區域，並且可以使用小型獨木舟進行泛舟活動。&#xa;溯溪者需要迎著上方的水流攀爬，是較具挑戰性的路段，建議具備合宜裝備（溯溪鞋、防寒衣、安全帽）並且攜伴同行再嘗試通過。&#xa;" author="" datetime="2025/9/5 11:40" customnodeid="" title="漂漂河・前段"/>
+    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundcolor="0xffffff" textcolor="0x000000" textalpha="1" borderradius="1" bordercolor="0x000000" wordwrap="1" height="20" enabled="1" backgroundalpha="1" borderalpha="1" border="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
+      <hotspot pan="-30.908" url="{node26}" tilt="1.04" target="$fwd" skinid="ht_node" id="Point01" description="" title="漂漂河・深水段" distance="46.7009"/>
+      <hotspot pan="162.953" url="{node24}" tilt="22.62" target="$fwd" skinid="ht_node" id="Point02" description="" title="秘境・Ｘ" distance="56.9075"/>
     </hotspots>
     <media>
       <sound pan="0.000" id="" tilt="0.000">
         <source url="media/sunny-side-of-fun-248265.mp3"/>
       </sound>
     </media>
-    <transition zoomspeed="2" zoomoutpause="1" softedge="0" delay="none" zoomafteroutfov="40" blendcolor="0x000000" zoomfov="40" blendtime="1" enabled="1" type="crossdissolve" zoomin="0" zoomout="0" zoomafterinfov="140"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
-    <control sensitivity="8" invertcontrol="1" rubberband="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="1" contextvr="0" contextprojections="0" speedwheel="1" simulatemass="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" dblclickfullscreen="0" contextfullscreen="0" invertwheel="0">
+    <transition zoomfov="40" zoomafterinfov="140" softedge="0" zoomspeed="2" delay="none" type="crossdissolve" blendtime="1" zoomoutpause="1" zoomin="0" blendcolor="0x000000" enabled="1" zoomafteroutfov="40" zoomout="0"/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" invertcontrol="1" contextprojections="0" simulatemass="1" speedwheel="1" lockedmouse="0" hideabout="1" contextfullscreen="0" contextvr="0" invertwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" dblclickfullscreen="0" rubberband="0" zoomcentercursor="1" lockedwheel="0">
       <menulink url="https://oring-brother.com" text="JP爵攝數位影像工作室"/>
     </control>
   </panorama>
-  <panorama hideabout="1" id="node24">
-    <input levelbiashidpi="1.000" leveltilesize="510" height="3500" levelbias="0.400" overlap="1" levelingroll="0" levelingpitch="0" width="3500" leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level height="3500" preload="0" predecode="0" width="3500"/>
-      <level height="1750" preload="0" predecode="0" width="1750"/>
-      <level height="875" preload="0" predecode="0" width="875"/>
-      <level height="437" preload="1" predecode="1" width="437"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama id="node24" hideabout="1">
+    <input leveltilesize="510" overlap="1" width="3500" levelbiashidpi="1.000" leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3500" levelbias="0.400" levelingpitch="0" levelingroll="0">
+      <level preload="0" predecode="0" width="3500" height="3500"/>
+      <level preload="0" predecode="0" width="1750" height="1750"/>
+      <level preload="0" predecode="0" width="875" height="875"/>
+      <level preload="1" predecode="1" width="437" height="437"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-2.04273" fovmode="2">
-      <start projection="4" pan="0" fov="100" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="0.3" tilt="-90"/>
-      <max fovfisheye="360" pan="360" fov="120" fovstereographic="330" scaletofit="1" tilt="90"/>
+      <start fov="100" pan="0" tilt="0" projection="4"/>
+      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="0.3"/>
+      <max fov="120" pan="360" scaletofit="1" tilt="90" fovfisheye="360" fovstereographic="330"/>
     </view>
-    <userdata tags="aerial|Pano" nodeid="node24" datetime="2025/9/5 12:13" source="iPhone 16 pro HDR " info="" author="" description="底下是從漂漂河峽谷往上游越過高約1.5 公尺的石頭堆後的秘境。&#xa;河道左側那塊接近三公尺高的大岩面，在水位較高的季節，可以在岩石上頭進行跳水。岩石側邊也能看到固定過的繩索，方便從水中攀回岸上。&#xa;&#xa;再往更上游走，溪谷變得更狹窄、地形更崎嶇，雖然也有另一段秘境景色，但行走難度較高，不建議沒有經驗者單獨前往。&#xa;&#xa;由於此處位於山谷深處，整段區域大多沒有手機訊號，若發生意外難以立即獲得協助，請務必斟酌體能與裝備，再決定是否更深入的探索。" title="秘境・Ｘ" latitude="23.87156343" heading="-2.04273" customnodeid="" comment="" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." longitude="121.47769957" altitude="60.00"/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label backgroundcolor="0xffffff" borderradius="1" height="20" borderalpha="1" textalpha="1" border="1" bordercolor="0x000000" wordwrap="1" backgroundalpha="1" enabled="1" textcolor="0x000000" width="180" background="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
-      <hotspot distance="56.9075" target="$fwd" tilt="-46.66" description="" title="漂漂河・前段" pan="-39.3313" skinid="ht_node" id="Point01" url="{node27}"/>
+    <userdata source="iPhone 16 pro HDR " info="" tags="aerial|Pano" longitude="121.47769957" altitude="60.00" comment="" latitude="23.87156343" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." heading="-2.04273" nodeid="node24" description="底下是從漂漂河峽谷往上游越過高約1.5 公尺的石頭堆後的秘境。&#xa;河道左側那塊接近三公尺高的大岩面，在水位較高的季節，可以在岩石上頭進行跳水。岩石側邊也能看到固定過的繩索，方便從水中攀回岸上。&#xa;&#xa;再往更上游走，溪谷變得更狹窄、地形更崎嶇，雖然也有另一段秘境景色，但行走難度較高，不建議沒有經驗者單獨前往。&#xa;&#xa;由於此處位於山谷深處，整段區域大多沒有手機訊號，若發生意外難以立即獲得協助，請務必斟酌體能與裝備，再決定是否更深入的探索。" author="" datetime="2025/9/5 12:13" customnodeid="" title="秘境・Ｘ"/>
+    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundcolor="0xffffff" textcolor="0x000000" textalpha="1" borderradius="1" bordercolor="0x000000" wordwrap="1" height="20" enabled="1" backgroundalpha="1" borderalpha="1" border="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
+      <hotspot pan="-39.3313" url="{node27}" tilt="-46.66" target="$fwd" skinid="ht_node" id="Point01" description="" title="漂漂河・前段" distance="56.9075"/>
     </hotspots>
     <media>
       <sound pan="0.000" id="" tilt="0.000">
         <source url="media/sunny-side-of-fun-248265.mp3"/>
       </sound>
     </media>
-    <transition zoomspeed="2" zoomoutpause="1" softedge="0" delay="none" zoomafteroutfov="40" blendcolor="0x000000" zoomfov="40" blendtime="1" enabled="1" type="crossdissolve" zoomin="0" zoomout="0" zoomafterinfov="140"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
-    <control sensitivity="8" invertcontrol="1" rubberband="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="1" contextvr="0" contextprojections="0" speedwheel="1" simulatemass="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" dblclickfullscreen="0" contextfullscreen="0" invertwheel="0">
+    <transition zoomfov="40" zoomafterinfov="140" softedge="0" zoomspeed="2" delay="none" type="crossdissolve" blendtime="1" zoomoutpause="1" zoomin="0" blendcolor="0x000000" enabled="1" zoomafteroutfov="40" zoomout="0"/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" invertcontrol="1" contextprojections="0" simulatemass="1" speedwheel="1" lockedmouse="0" hideabout="1" contextfullscreen="0" contextvr="0" invertwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" dblclickfullscreen="0" rubberband="0" zoomcentercursor="1" lockedwheel="0">
       <menulink url="https://oring-brother.com" text="JP爵攝數位影像工作室"/>
     </control>
   </panorama>
   <masternode>
-    <userdata author="JP爵攝數位影像工作室 | JP Image Studio&#xa;" title="花蓮景點｜白鮑溪漂漂河" tags="" comment="" copyright="JP爵攝數位影像工作室 | JP Image Studio&#xa;" description="由 JP爵攝數位影像工作室拍攝與製作的高品質虛擬導覽，採用 iphone 16 pro拍攝，完整呈現花蓮縣消暑熱點「白鮑溪上游秘境」的空間與環境細節。&#xa;"/>
+    <userdata copyright="JP爵攝數位影像工作室 | JP Image Studio&#xa;" description="由 JP爵攝數位影像工作室拍攝與製作的高品質虛擬導覽，採用 iphone 16 pro拍攝，完整呈現花蓮縣消暑熱點「白鮑溪上游秘境」的空間與環境細節。&#xa;" author="JP爵攝數位影像工作室 | JP Image Studio&#xa;" tags="" title="花蓮景點｜白鮑溪漂漂河" comment=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
     <translations>
       <json>{"languages":["de","en","ja","ko"],"projectLanguage":"zh-TW","translations":{"2025/9/4 11:13":["","","",""],"2025/9/4 11:17":["","","",""],"2025/9/4 11:49":["","","",""],"2025/9/4 12:30":["","","",""],"2025/9/5 11:01":["","","",""],"2025/9/5 11:08":["","","",""],"2025/9/5 11:37":["","","",""],"2025/9/5 11:40":["","","",""],"2025/9/5 12:09":["","","",""],"2025/9/5 12:13":["","","",""],"Insta360 X4":["","","",""],"JP爵攝數位影像工作室":["JP Image Studio – Studio für digitale Bildproduktion","JP Image Studio (JP爵攝數位影像工作室)","JP爵攝デジタル映像スタジオ","JP 작섭 디지털 영상 스튜디오"],"JP爵攝數位影像工作室 | JP Image Studio\n":["JP Image Studio für Digitale Bildproduktion\n","JP爵攝數位影像工作室 | JP Image Studio\n","JP爵攝デジタル映像スタジオ | JP Image Studio\n","JP爵攝 디지털 영상 스튜디오 | JP Image Studio\n"],"Mavic 2 Pro":["","","",""],"iPhone 16 pro HDR ":["","","",""],"© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved.":["© 2025 JP Image Studio (JP爵攝數位影像工作室). Alle Rechte vorbehalten.","© 2025 JP Image Studio (JP爵攝數位影像工作室). All rights reserved.","© 2025 JP Image Studio（JP爵攝數位影像工作室）. 無断転載を禁じます","© 2025 JP Image Studio (JP爵攝數位影像工作室). 무단 복제 및 배포를 금합니다."],"再往前探索就是另外一個秘境，不過要先越過高約1.5公尺落差的岩石堆，爬過岩石後是另外一個淺灘區。當豐水期時，那裡也是個戲水的好區域，並且可以使用小型獨木舟進行泛舟活動。\n溯溪者需要迎著上方的水流攀爬，是較具挑戰性的路段，建議具備合宜裝備（溯溪鞋、防寒衣、安全帽）並且攜伴同行再嘗試通過。\n":["Weiter vorne liegt ein weiterer versteckter Abschnitt, jedoch muss man zuerst eine etwa 1,5 Meter hohe Felsstufe überwinden.\nHinter den Felsen befindet sich ein weiterer Flachwasserbereich, der in der Hochwasserzeit ein guter Ort zum Baden ist und sich auch für das Paddeln mit kleinen Kajaks eignet.\n\nDa man gegen die Strömung klettern muss, ist dieser Abschnitt anspruchsvoller.\nEs wird empfohlen, mit geeigneter Ausrüstung (z. B. Canyoning-Schuhe, Neoprenanzug, Helm) und in Begleitung weiterzugehen, um die Passage sicher zu bewältigen.\n","Further ahead is another hidden spot, but you must first climb over a rock formation with about a 1.5-meter elevation gain.\nBeyond the rocks is another shallow area, which becomes a good spot for swimming during the high-water season and is also suitable for kayaking with small boats.\n\nTo reach it, you’ll need to climb against the current, which makes this section more challenging.\nIt’s recommended to go with proper equipment (such as canyoning shoes, wetsuit, and helmet) and with companions for safety.\n","この先にはさらに別の秘境がありますが、その前に約1.5メートルの岩場をよじ登る必要があります。\n岩を越えた先にはもう一つの浅瀬があり、水量が多い季節には水遊びに適しているほか、小型カヤックで遊ぶこともできます。\n\nここへ行くには上流の流れに向かって登る必要があるため、やや難易度の高い区間です。\n溯渓シューズ、ウェットスーツ、ヘルメットなど適切な装備を整え、必ず仲間と一緒に進むことをおすすめします。\n","앞쪽에는 또 다른 비밀 구간이 있지만, 먼저 약 1.5m 높이의 바위 지대를 넘어야 합니다.\n바위를 넘으면 또 하나의 얕은 구간이 나오며, 수량이 많은 시기에는 물놀이하기 좋고 작은 카약을 이용해 내려올 수도 있습니다.\n\n이곳에 도달하려면 상류 쪽 물살을 거슬러 올라가야 하므로 난도가 조금 높은 구간입니다.\n계곡화(溯溪) 신발, 웨트슈트, 헬멧 등 적절한 장비를 갖추고 동행자와 함께 이동하는 것을 권장합니다.\n"],"小心此水坑有青苔容易滑腳，踩踏時務必確保腳步站穩後再踏出另外一步":["In dieser Wasserstelle gibt es Moos, und der Boden kann rutschig sein.\nAchte darauf, festen Halt zu haben, bevor du den nächsten Schritt machst.","This pool has moss and can be slippery.\nMake sure your footing is secure before taking the next step.","この水たまりには苔があり、滑りやすいので注意してください。\n次の一歩を踏み出す前に、足元がしっかり安定しているか確認してください。","이 물웅덩이에는 이끼가 있어 미끄러울 수 있습니다.\n다음 발을 내딛기 전에 발을 단단히 디뎠는지 확인하세요."],"小水坑":["Kleine Wassermulde","Small Pool","小さな水たまり","작은 물웅덩이"],"底下是從漂漂河峽谷往上游越過高約1.5 公尺的石頭堆後的秘境。\n河道左側那塊接近三公尺高的大岩面，在水位較高的季節，可以在岩石上頭進行跳水。岩石側邊也能看到固定過的繩索，方便從水中攀回岸上。\n\n再往更上游走，溪谷變得更狹窄、地形更崎嶇，雖然也有另一段秘境景色，但行走難度較高，不建議沒有經驗者單獨前往。\n\n由於此處位於山谷深處，整段區域大多沒有手機訊號，若發生意外難以立即獲得協助，請務必斟酌體能與裝備，再決定是否更深入的探索。":["Dieser versteckte Bereich befindet sich flussaufwärts der漂漂河-Schlucht, nachdem man die rund 1,5 Meter hohe Felsstufe überwunden hat.\nAuf der linken Seite des Flussbetts steht eine nahezu drei Meter hohe Felswand. In der Hochwasserzeit wird dort gelegentlich ins Wasser gesprungen.\nAn der Seite des Felsens ist ein befestigtes Seil angebracht, das den Aufstieg zurück ans Ufer erleichtert.\n\nWeiter flussaufwärts wird die Schlucht enger und das Gelände unwegsamer. Dort gibt es einen weiteren versteckten Abschnitt, jedoch ist der Weg anspruchsvoller und wird für Unerfahrene oder Alleingänger nicht empfohlen.\n\nDa sich dieser Bereich tief im Tal befindet, gibt es kaum Mobilfunkempfang.\nIm Notfall kann Hilfe nicht sofort geleistet werden, daher sollte man seine Kondition und Ausrüstung sorgfältig einschätzen, bevor man weiter vordringt.","This hidden area is located upstream of the Piaopia River Gorge, after climbing over the rock formation with about a 1.5-meter elevation gain.\nOn the left side of the stream, there is a large rock face nearly three meters tall. During high-water seasons, people sometimes jump into the water from the top.\nA rope is attached along the side of the rock to help climbers return to the bank after entering the water.\n\nFurther upstream, the gorge becomes narrower and the terrain more rugged. Although it leads to another scenic hidden section, the route is more difficult and is not recommended for those without experience or for solo exploration.\n\nBecause this area is deep within the valley, mobile reception is mostly unavailable.\nIn case of an accident, assistance may not arrive quickly, so evaluate your physical condition and equipment carefully before going deeper into the route.","ここは漂漂河峡谷の岩場（約1.5メートルの段差）を越えた上流にある秘境エリアです。\n川の左側には高さ約3メートルの大きな岩壁があり、水量が多い季節にはここから飛び込みが行われることがあります。\n岩の側面にはロープが固定されており、水に入ったあと岸に戻りやすくなっています。\n\nさらに上流へ進むと、峡谷はより狭く、地形も険しくなります。そこにも別の秘境がありますが、ルートの難易度が高く、経験のない方や単独行動はおすすめしません。\n\nこの場所は谷の奥に位置しているため、携帯の電波はほとんど届きません。\n事故が起きてもすぐに救助を受けられない可能性があるため、体力や装備をしっかり確認した上で、さらに奥へ進むかどうか判断してください。","이 지점은 표표허 협곡에서 약 1.5m 높이의 바위 지대를 넘은 뒤 상류에 위치한 비밀 구간입니다.\n강 왼쪽에는 높이 약 3m에 달하는 큰 바위 절벽이 있으며, 수량이 많은 계절에는 이곳에서 다이빙을 하기도 합니다.\n바위 측면에는 고정된 로프가 있어 물에 들어갔다가 다시 올라올 때 도움이 됩니다.\n\n더 상류로 올라가면 협곡이 더 좁아지고 지형도 험해집니다. 그곳에도 또 다른 비밀 장소가 있지만 난도가 더 높아 경험이 없거나 혼자 이동하는 것은 권장하지 않습니다.\n\n이 지역은 깊은 계곡 안에 있어 휴대전화 신호가 거의 잡히지 않습니다.\n사고가 나면 즉시 도움을 받기 어려울 수 있으므로, 더 안쪽으로 들어가기 전에 체력과 장비를 충분히 점검하고 이동 여부를 결정하세요."],"往下看，整段溪谷在兩側山壁間延伸，溪床越往上游越來越窄，距離主要目的地已經很近了。\n再往上游走大約三、四十公尺，就會抵達傳說中的秘境。\n\n底下的溪流右側可以看見一條更細的支流注入主溪，沿著這個支流往上走，會發現一條不起眼的小徑藏在綠蔭裡。\n順著小徑前行，能抵達上游更深處的另一個攔沙壩，那裡通常是溯溪團體的活動終點，也是一個相對寧靜的自然景點，往那裡的溪谷轉折明顯、坡度較大，若打算前往支流小徑或更上游區域，溯溪鞋、防滑鞋仍然是必要配備。":["Von hier aus blickt man auf die gesamte Schlucht, die sich zwischen den Bergwänden erstreckt.\nJe weiter man flussaufwärts geht, desto schmaler wird das Flussbett.\nZum Hauptziel ist es nicht mehr weit – etwa 30 bis 40 Meter flussaufwärts liegt der bekannte versteckte Abschnitt.\n\nRechts unten im Flussbett mündet ein kleinerer Nebenarm in den Hauptfluss.\nFolgt man diesem Nebenarm, entdeckt man einen unauffälligen Pfad, der im Grün versteckt liegt.\nDieser Pfad führt zu einem weiteren Sperrdamm weiter oben, der oft das Ziel geführter Canyoning-Gruppen ist und eine ruhigere Naturlandschaft bietet.\nDa die Schlucht in dieser Richtung schärfer abbiegt und das Gefälle stärker wird, sind Schuhe mit guter Rutschfestigkeit auch hier dringend empfohlen – besonders wenn man den Nebenarm oder noch weiter flussaufwärts erkunden möchte.","Looking down from here, the entire gorge stretches between the mountain walls, and the riverbed becomes narrower as you head upstream.\nYou are now very close to the main destination—walk upstream for another 30–40 meters and you’ll reach the hidden spot many people talk about.\n\nOn the right side of the stream below, you can see a smaller tributary joining the main flow.\nIf you follow this tributary upstream, you’ll find a small, inconspicuous trail hidden in the greenery.\nFollowing this path leads to another check dam further upstream, which is often the endpoint for canyoning groups.\nIt’s a quieter and more secluded natural spot. The gorge turns more sharply in that direction and the slope increases, so if you plan to explore the tributary trail or continue farther upstream, canyoning shoes or footwear with strong traction remain essential.","ここから下を見ると、峡谷全体が両側の山壁の間に伸びており、上流へ進むほど川幅は狭くなっていきます。\n目的地まではもうすぐで、さらに30〜40メートルほど上流へ歩けば、噂の秘境にたどり着きます。\n\n下の川の右側には、小さな支流が本流に合流しているのが見えます。\nその支流に沿って進むと、緑に隠れた目立たない小径が現れます。\nこの小径を進むと、さらに上流にある別の砂防ダムへ到達できます。\nそこは溯渓ツアーの終点となることが多く、より静かな自然スポットです。\nその方向の峡谷は曲がりが急で傾斜も大きいため、支流の小径やさらに上流へ行く場合は、溯渓シューズや滑りにくい靴が必須です。","아래를 내려다보면 협곡이 양쪽 산벽 사이로 길게 이어져 있으며, 상류로 갈수록 하천 폭이 점점 좁아집니다.\n주요 목적지는 이제 얼마 남지 않았습니다. 상류로 약 30~40m 더 걸어가면 많은 사람들이 말하는 비밀 장소에 도착합니다.\n\n강 아래 오른쪽에는 작은 지류가 본류로 합류하는 모습을 볼 수 있습니다.\n이 지류를 따라 올라가면 녹음 속에 숨겨진 눈에 잘 띄지 않는 작은 오솔길이 있습니다.\n이 길을 따라가면 상류 깊숙한 곳에 위치한 또 하나의 사방댐에 도착하는데, 이곳은 종종 계곡 탐험 팀의 활동 종점이며 비교적 조용한 자연 구간입니다.\n그 방향의 협곡은 굽이치는 각도가 더 크고 경사도 가파르므로, 지류 오솔길이나 상류를 더 탐험하려면 계곡화 신발 또는 미끄럼 방지 신발이 필수입니다."],"從空拍角度往後看可以找到剛剛出發的那座涼亭，往前看也能清楚看見這段溪谷的地形。\n水色非常乾淨，若走累了，旁邊就是天然的冰涼泡腳池，隨時都能停下來休息。\n從這裡開始在河道中行走會有一些比較溜滑的石頭，需要注意腳下的狀況，踏穩後再前進。\n沿路也能看到許多玉石、礫石，邊走邊看地上或是河道的石頭會更有趣。\n這一段幾乎沒有樹蔭，建議做好防曬並記得補水，行走時務必穿溯溪鞋或防滑鞋，會安全很多。":["Aus dieser Luftperspektive kann man rückwärts die Startstelle mit dem Pavillon erkennen und nach vorne die Form dieses Schluchtabschnitts deutlich sehen.\nDas Wasser ist sehr klar, und wenn man müde wird, gibt es natürliche, kühle Wasserbecken am Rand, in denen man jederzeit eine Pause einlegen kann.\n\nAb hier können die Steine im Flussbett rutschig sein, daher sollte man auf den Stand achten und erst weitergehen, wenn man sicher steht.\nUnterwegs findet man viele Jade- und Kieselsteine; es macht den Weg spannender, wenn man beim Laufen auf die Felsen im Flussbett achtet.\n\nDieser Abschnitt hat kaum Schatten, daher sind Sonnenschutz und ausreichende Flüssigkeitszufuhr wichtig.\nSchuhe mit guter Rutschfestigkeit oder spezielle Canyoning-Schuhe werden dringend empfohlen.","From this aerial view, you can look back and see the pavilion where you started, and looking forward you can clearly observe the shape of this section of the gorge.\nThe water is very clean, and if you get tired, there are natural cool pools beside the path where you can stop and rest anytime.\n\nFrom this point on, the rocks in the stream can be slippery, so watch your footing and move forward only after stepping firmly.\nAlong the way, you’ll see many types of jade and pebbles—looking closely at the stones on the path and in the river makes the walk even more interesting.\n\nThere is almost no shade in this area, so be sure to use sun protection and stay hydrated.\nWearing canyoning shoes or footwear with strong grip is highly recommended for safety.","この空撮視点からは、出発地点の東屋を振り返って確認でき、前方にはこの峡谷の形状をはっきりと見渡せます。\n水はとても澄んでおり、疲れたらすぐ横にある天然の冷たい水たまりで休憩できます。\n\nここから先は、川の石が滑りやすくなる区間があるため、足元に注意し、しっかり踏んでから進んでください。\n歩く途中には翡翠や礫石が多く見られ、川底や足元の石を観察しながら歩くとさらに楽しめます。\n\nこの区間はほぼ日陰がないため、日焼け対策と水分補給を忘れずに。\n安全のため、溯渓シューズや滑りにくい靴を着用することをおすすめします。","이 항공 시점에서는 출발 지점에 있던 정자를 뒤로 확인할 수 있고, 앞으로는 이 협곡 구간의 지형을 선명하게 볼 수 있습니다.\n물이 매우 맑고, 피곤하면 옆에 있는 자연형 냉수 웅덩이에서 언제든지 쉬어갈 수 있습니다.\n\n이 지점부터는 강바닥 바위가 미끄러울 수 있으니, 발을 단단히 딛고 안전을 확인한 뒤 이동하세요.\n길을 따라 옥돌과 자갈을 많이 볼 수 있어, 바닥과 강바닥의 돌을 살피며 걸으면 더욱 흥미롭습니다.\n\n이 구간에는 그늘이 거의 없으므로 자외선 차단과 수분 보충을 꼭 해야 합니다.\n안전을 위해 계곡화(溯溪) 신발이나 미끄럼 방지 기능이 있는 신발 착용을 권장합니다。"],"從這裡起，溪谷的寬度開始明顯收窄，水色也轉成更透亮的淡藍綠，代表著著名的「漂漂河峽谷」就在前面不遠處。\n照片左側可以看到一小片樹蔭覆蓋的平坦區域，這裡相對乾爽、陰涼，是走到目的地前最剛好的休息點。\n許多人會在這裡暫放背包、補充水分、調整裝備，再往前就是比較狹窄、需要踩穩腳步再前行的路段。\n地面多為大石與裸露岩塊，此路段會比前面更滑溜一些，穿著溯溪鞋或防滑鞋會讓這段更容易前進。":["Ab hier verengt sich die Schlucht deutlich, und das Wasser nimmt einen klareren, hellblau-grünen Farbton an – ein Zeichen dafür, dass die bekannte漂漂河-Schlucht nicht mehr weit entfernt ist.\n\nAuf der linken Seite des Fotos befindet sich eine kleine, schattige Ebene, die trocken und kühl ist – ein idealer Rastplatz vor dem letzten Abschnitt.\nViele legen hier ihre Rucksäcke ab, trinken Wasser und passen ihre Ausrüstung an.\nDanach wird der Weg enger und erfordert sicheres Auftreten.\n\nDer Untergrund besteht überwiegend aus großen Felsen und freiliegendem Gestein, und dieser Abschnitt ist rutschiger als zuvor.\nSchuhe mit guter Rutschfestigkeit oder spezielle Canyoning-Schuhe erleichtern das Weitergehen erheblich.","From this point onward, the gorge becomes noticeably narrower, and the water turns into a clearer light blue-green, indicating that the well-known Piaopia River Gorge is just ahead.\n\nOn the left side of the photo, there is a small shaded flat area that is relatively dry and cool—an ideal rest spot before reaching the destination.\nMany people leave their backpacks here, rehydrate, and adjust their gear before moving on.\nBeyond this point, the path becomes narrower and requires careful footing.\n\nThe ground consists mainly of large rocks and exposed bedrock, and this section is more slippery than earlier parts.\nWearing canyoning shoes or footwear with good traction will make it much easier to continue.","この地点から、峡谷の幅が明らかに狭くなり、水はより透明感のある淡い青緑色へと変わります。\nこれは、よく知られる「漂漂河峡谷」がすぐ前にあることを示しています。\n\n写真左側には、日陰のある平坦なスペースがあり、比較的乾いて涼しいため、目的地に到着する前の休憩場所として最適です。\n多くの人がここで荷物を置き、水分補給をし、装備を整えてから先へ進みます。\nこの先は道幅が狭くなり、足元をしっかり確認しながら進む必要があります。\n\n地面は大きな岩や露出した岩盤が多く、これまでの区間より滑りやすい場所が増えます。\n溯渓シューズや滑りにくい靴を着用すると、安全に進みやすくなります。","이 지점부터 협곡의 폭이 눈에 띄게 좁아지고, 물빛도 더 맑은 연청록색으로 변합니다.\n이는 잘 알려진 ‘표표허 협곡’이 바로 앞에 있다는 신호입니다.\n\n사진 왼쪽에는 그늘이 있는 평탄한 장소가 있는데, 비교적 건조하고 시원하여 목적지에 도달하기 전 쉬어가기 좋은 지점입니다.\n많은 사람들이 이곳에서 배낭을 내려놓고 물을 마시며 장비를 정비한 뒤 앞으로 이동합니다.\n이 지점 이후에는 길이 더 좁아지고 발을 단단히 디뎌야 합니다.\n\n지면은 큰 바위와 노출된 암반으로 이루어져 있으며, 이전 구간보다 미끄러운 편입니다.\n계곡화(溯溪) 신발이나 미끄럼 방지 신발을 착용하면 훨씬 쉽게 이동할 수 있습니다."],"攔沙壩":["Sperrdamm","Check Dam","堰堤（砂防）","사방댐"],"攔沙壩霸體高度落差約一公尺左右，由此處踩踏左邊的山壁蹬上來比較容易爬上攔沙壩。":["Der Höhenunterschied dieses Sperrdamms beträgt etwa einen Meter.\nAm einfachsten gelangt man nach oben, indem man links entlang der Felswand tritt und sie als Trittfläche nutzt.","The height difference of the check dam is about one meter.\nIt’s generally easier to climb up by stepping on the rock wall on the left side and using it for footing to reach the top.","この砂防ダムの高低差は約1メートルです。\n左側の岩壁を足場として踏み込むと、堰堤の上まで比較的登りやすくなります。","이 사방댐의 높이 차는 약 1m 정도입니다.\n왼쪽 바위벽을 발 디딤으로 활용하면 댐 위로 올라가기 더 수월합니다."],"此處水流緩慢，水深約莫及腰（枯水期）兩側岩壁造就了峽谷樣貌，就是「漂漂河峽谷」這個稱號的由來。水質清澈見底，在陽光的照射作用下，溪水成碧綠色，小魚隨處可見。":["Das Wasser ist hier ruhig und in der Trockenzeit etwa bis zur Taille tief.\nDie Felswände auf beiden Seiten formen eine ausgeprägte Schluchtenlandschaft, die dem Ort den Namen „漂漂河-Schlucht“ gegeben hat.\nDas Wasser ist so klar, dass man den Grund sehen kann, und im Sonnenlicht erscheint es smaragdgrün; kleine Fische sind vielerorts zu sehen.","The water here is calm, and during the dry season it is about waist-deep.\nThe rock walls on both sides form the gorge-like landscape, which is where the name “Piaopia River Gorge” comes from.\nThe water is clear enough to see the bottom, and under sunlight it turns a vivid green, with small fish visible everywhere.","この区間は流れが穏やかで、渇水期の水深は大人の腰ほどです。\n両側の岩壁が峡谷の形をつくり、これが「漂漂河峡谷」という名称の由来となっています。\n水は底まで見えるほど澄んでおり、日差しを受けると碧緑色に輝き、小さな魚があちこちで泳いでいます。","이 구간은 물살이 완만하고, 갈수기에는 수심이 성인 허리 정도입니다.\n양쪽 바위 절벽이 협곡 형태를 이루고 있어, 이곳이 ‘표표허 협곡’이라 불리는 이유가 됩니다.\n물은 바닥이 보일 만큼 맑으며, 햇빛을 받으면 옅은 비취색으로 보이고 작은 물고기들이 곳곳에서 보입니다."],"步行起點":["Wanderweg-Start","Trail Start","歩行の起点","도보 시작 지점"],"河谷淺水區":["Flache Stelle im Flusstal","Gorge Shallows","河谷の浅瀬","협곡의 얕은 물 구간"],"河道":["Bachbett","River Channel","河道","강의 흐름 길"],"漂漂河・前段":["漂漂河 — Vorderer Abschnitt","Upper Approach to Piaopia River","漂漂河・前段","표표허・앞쪽 구간"],"漂漂河・末段":["漂漂河 — Endabschnitt","End Section of Piaopia River","漂漂河・末端区間","표표허・마지막 구간"],"漂漂河・深水段":["漂漂河 — Tiefwasserabschnitt","Deep Section of Piaopia River","漂漂河・深い水域","표표허・심수 구간"],"由 JP爵攝數位影像工作室拍攝與製作的高品質虛擬導覽，採用 iphone 16 pro拍攝，完整呈現花蓮縣消暑熱點「白鮑溪上游秘境」的空間與環境細節。\n":["Diese hochwertige virtuelle Tour wurde von JP Image Studio fotografiert und produziert und mit einem iPhone 16 Pro aufgenommen.\nSie zeigt die Umgebung und räumlichen Details des „Oberen Geheimabschnitts des Baibao-Flusses“, einem beliebten Sommerziel im Landkreis Hualien.\n","A high-quality virtual tour photographed and produced by JP Image Studio, shot with an iPhone 16 Pro.\nThis tour presents the full environment and spatial details of the “Upper Hidden Section of Baibao Creek,” one of Hualien’s popular summer spots.\n","本バーチャルツアーは、JP爵攝デジタル映像スタジオが撮影・制作した高品質コンテンツで、iPhone 16 Pro を用いて撮影されています。\n花蓮県で夏の人気スポットとなっている「白鮑渓・上流の秘境」の空間と環境のディテールを余すことなく表現しています。\n","이 가상 투어는 JP 작섭 디지털 영상 스튜디오에서 촬영·제작한 고품질 콘텐츠이며, iPhone 16 Pro로 촬영되었습니다.\n화롄 지역의 여름 인기 명소인 ‘백포시 표표허 상류 비밀 구간’의 공간과 환경 디테일을 온전히 담고 있습니다.\n"],"由此處爬上來":["Aufstieg ab hier","Climb Up from Here","ここから登る","여기서 위로 이동"],"秘境・Ｘ":["Geheimspot · X","Hidden Spot · X","秘境・X","숨겨진 장소 · X"],"空拍視角":["Luftansicht","Aerial View","空撮視点","항공 시점"],"花蓮景點｜白鮑溪漂漂河":["Reiseziel in Hualien |漂漂河 am Baibao-Fluss","Hualien Scenic Spot | Piaopia River at Baibao Creek","花蓮の観光地｜白鮑渓・漂漂河","화롄 여행지｜백포시(白鮑溪) 표표허"],"行車的道路終點，往前行道路不通。旁邊有涼亭可以休息，也有自行車駐車位。\n溪水淹過車道，站在車道上就能看到小魚從腳邊游過去，很多人還沒開始走就在這裡先玩起水來。\n往上游大約走二十分鐘，就會抵達網陸流傳的白鮑溪秘境「漂漂河峽谷」。\n\n路不難走，但河道中的石頭滑、部分區段會行走在河道上，建議從這裡開始就穿上溯溪鞋、帶防水袋，由於此區位於山谷內，手機訊號幾乎沒有，如果發生意外時，無法在第一時間獲得醫療救護，所以安全設施要做好，最好是穿著溯溪鞋或是任何具有明顯止滑效果的鞋類。\n\n旅程從這裡開始，大自然的美會越往上游越精彩。":["Hier endet die befahrbare Straße; der Weg davor ist für Fahrzeuge unpassierbar.\nEs gibt einen Pavillon zum Ausruhen sowie Abstellplätze für Fahrräder.\n\nWenn der Wasserstand steigt und die Straße überflutet, kann man direkt auf der Straße stehen und sehen, wie kleine Fische an den Füßen vorbeischwimmen.\nViele Besucher beginnen bereits hier mit dem Spielen im Wasser, bevor sie überhaupt losgehen.\n\nVon hier aus sind es etwa zwanzig Minuten flussaufwärts bis zum bekannten versteckten Ort von Baibao-Fluss, der „漂漂河-Schlucht“.\n\nDer Weg ist nicht schwierig, aber die Steine im Flussbett sind rutschig und einige Abschnitte verlaufen direkt im Wasser.\nDaher wird empfohlen, ab diesem Punkt Canyoning-Schuhe zu tragen und eine wasserdichte Tasche mitzunehmen.\nDa sich dieser Bereich in einem Tal befindet, gibt es kaum Mobilfunksignal. Im Notfall kann Hilfe nicht sofort geleistet werden, daher ist gute Vorbereitung wichtig. Schuhe mit starker Rutschfestigkeit sind sehr empfehlenswert.\n\nHier beginnt die Reise – je weiter man flussaufwärts geht, desto beeindruckender wird die Natur.","The drivable road ends here, and the path ahead is no longer accessible by car.\nThere is a pavilion for resting and a parking area for bicycles.\n\nWhen the water reaches the road, you can stand on the pavement and watch fish swim past your feet.\nMany people start playing in the water here before even beginning the hike.\n\nFrom this point, walk upstream for about 20 minutes to reach the well-known Baibao Creek hidden spot, the “Piaopia River Gorge.”\n\nThe route is not difficult, but the rocks in the river can be slippery, and some sections require walking directly in the stream.\nIt’s recommended to wear canyoning shoes and bring a waterproof bag starting from here.\nSince this area is in a valley, cellphone reception is very limited. In case of an accident, help may not arrive immediately, so proper safety preparation is essential. Footwear with strong grip is highly recommended.\n\nYour journey begins here — and the further you go upstream, the more stunning the scenery becomes.","ここが車で行ける道の終点で、これより先は車両通行ができません。\n休憩できる東屋や、自転車の駐輪スペースがあります。\n\n水位が上がると道路まで水が浸かり、道路に立ったまま足元を魚が泳いでいく様子を見ることができます。\n多くの人は歩き始める前に、この場所で水遊びをしています。\n\nここから上流へ約20分歩くと、ネットで知られる白鮑渓の秘境「漂漂河峡谷」に到着します。\n\n道自体は難しくありませんが、川の石は滑りやすく、一部区間は川の中を歩く必要があります。\nこの地点から溯渓シューズを履き、防水バッグを持つことをおすすめします。\nこの区間は谷間にあるため、携帯の電波はほぼ届きません。事故が起きた場合、すぐに救助を受けられない可能性があるので、安全装備を整えることが重要です。滑りにくい靴を推奨します。\n\n旅はここから始まります。上流へ進むほど、景色はさらに美しくなります。","이곳이 차량으로 갈 수 있는 도로의 끝이며, 이 지점 이후로는 차량 진입이 불가능합니다.\n옆에는 쉴 수 있는 정자와 자전거 주차 공간이 있습니다.\n\n물살이 도로까지 차오르면 도로 위에 서 있는 것만으로도 작은 물고기들이 발 옆을 지나가는 모습을 볼 수 있습니다.\n많은 사람들이 본격적으로 이동하기 전에 이곳에서 먼저 물놀이를 시작합니다.\n\n이곳에서 상류로 약 20분 걸어 올라가면, 온라인에서 잘 알려진 백포시 표표허 협곡의 비밀 명소에 도착할 수 있습니다.\n\n길 자체는 어렵지 않지만 강바닥의 돌이 미끄럽고, 일부 구간은 물속을 직접 걸어야 합니다.\n이 지점부터는 계곡화(溯溪) 신발을 신고 방수 가방을 준비하는 것을 권장합니다.\n이 지역은 계곡 안에 있어 휴대전화 신호가 거의 없습니다. 사고가 발생하면 즉시 도움을 받기 어려울 수 있으므로 안전 준비가 중요하며, 미끄럼 방지 기능이 좋은 신발을 착용해야 합니다.\n\n여기서부터 여정이 시작됩니다. 상류로 더 올라갈수록 자연의 풍경은 더욱 아름다워집니다."],"車輛通行終點":["Fahrweg-Endpunkt","End of Vehicle Access","車両通行の終点","차량 통행 종점"],"這裡就是大家一路走來最期待的漂漂河峽谷的末端。\n\n枯水期的水深大約只到成年人小腿一半，水色透明到連底部的礫石紋路與小魚游動都能清楚看到，因為水流平穩、水深安全，是小朋友戲水最推薦的區域。\n\n再往前約十公尺後，溪谷突然收窄，水深會明顯變深，是大人漂浮、體驗水流的區域。\n若同行中有孩童，建議以此區作為活動範圍最剛好。\n\n不知道是否是此地很容易把石頭立起來，可以看到周邊有許多石頭立起來。在水流不斷沖刷的情況下還穩穩地立著，這些創作者的功力不凡。":["Dies ist der Endabschnitt der漂漂河-Schlucht, auf den sich viele Besucher während der gesamten Wanderung freuen.\n\nIn der Trockenzeit reicht das Wasser nur bis etwa zur Hälfte eines Erwachsenen-Wadenbeins.\nDas Wasser ist so klar, dass man die Muster der Kieselsteine am Boden sowie die schwimmenden Fische deutlich sehen kann.\nDa die Strömung ruhig und der Wasserstand flach ist, eignet sich dieser Bereich besonders gut für Kinder zum Spielen im Wasser.\n\nEtwa zehn Meter weiter flussaufwärts verengt sich die Schlucht plötzlich und das Wasser wird deutlich tiefer.\nDieser Abschnitt eignet sich eher für Erwachsene, die sich treiben lassen und die Strömung genießen möchten.\nWenn Kinder dabei sind, empfiehlt es sich, den flachen Bereich als hauptsächlichen Aktivitätsort zu wählen.\n\nInteressanterweise lassen sich die Steine hier leicht aufstellen, und man sieht ringsum viele aufrecht stehende Steinformationen.\nTrotz der ständigen Wasserströmung bleiben sie stabil – die Erbauer haben offensichtlich viel Geschick und Geduld.","This is the final section of the Piaopia River Gorge that everyone looks forward to reaching.\n\nDuring the dry season, the water is only about halfway up an adult’s calf.\nThe water is so clear that you can see the patterns of the pebbles and fish swimming along the bottom.\nBecause the flow is calm and shallow, this area is highly recommended for children to play in the water.\n\nAbout ten meters further upstream, the gorge suddenly narrows and the water becomes noticeably deeper.\nThis section is more suitable for adults to float and experience the current.\nIf you’re visiting with children, it’s recommended to treat this shallow zone as the main activity area.\n\nFor some reason, stones here are surprisingly easy to stack upright, and you’ll see many standing stone formations around the area.\nDespite constant water flow, they remain balanced—clearly the creators have skill and patience.","ここが、多くの人が歩いて辿り着くのを楽しみにしている漂漂河峡谷の終端部です。\n\n渇水期の水深は大人のふくらはぎの半分ほどしかなく、\n水は透き通り、川底の小石の模様や泳ぐ小魚まではっきり見えます。\n流れが穏やかで水深も浅いため、子どもの水遊びに最適な場所です。\n\nさらに10メートルほど上流へ進むと、峡谷が急に狭まり、水深も一気に深くなります。\nその区間は、大人が浮かんだり流れを体験したりするのに向いています。\n子どもと一緒に来ている場合は、この浅瀬を活動範囲とするのがちょうど良いでしょう。\n\nこの場所では石が立てやすいのか、周辺に立てられた石が多く見られます。\n絶えず水が流れる中でもしっかり立っているのを見ると、作った人の腕前がうかがえます。","이곳은 많은 사람들이 걸어서 도착하기를 가장 기대하는 표표허 협곡의 마지막 구간입니다.\n\n갈수기에는 수심이 성인 종아리 절반 정도로 얕고,\n물이 매우 맑아 바닥의 자갈 무늬와 헤엄치는 작은 물고기까지 선명하게 보입니다.\n물살이 잔잔하고 수심이 안전해 아이들이 물놀이하기에 가장 추천되는 구간입니다.\n\n약 10m 더 상류로 올라가면 협곡 폭이 갑자기 좁아지고 수심이 깊어집니다.\n이 구간은 어른들이 떠다니거나 물살을 체험하기에 좋은 장소입니다.\n아이와 함께 방문했다면 이 얕은 구간을 주요 활동 범위로 삼는 것이 좋습니다.\n\n이 지역은 돌이 잘 세워지는지, 주변에 세워진 돌 무더기가 많이 보입니다.\n계속 물이 흐르는데도 균형을 잃지 않는 걸 보면, 만든 사람들의 손기술이 대단합니다."],"這裡是漂漂河峽谷中最清涼、最能感受到山林包覆感的一段。\n此時的水深大約到成年人的腰部，水色透明而冷冽，是夏天最受歡迎的漂浮區域。\n\n有許多遊客帶著泳圈、充氣小船在水面慢慢飄著，在這種山林光影下漂浮，是非常放鬆的體驗。\n\n大雨過後水位會升高，溪谷右邊的大岩石也會變成年輕人常挑戰的跳水點，不過水深會因季節和雨量變化，跳水前務必確認水深是否能夠安全進行跳水活動。":["Dies ist der kühlste Abschnitt der漂漂河-Schlucht und einer der Bereiche, in denen man das Gefühl hat, vollständig von Wald umgeben zu sein.\nZu dieser Zeit reicht das Wasser einem Erwachsenen etwa bis zur Taille; es ist klar und kalt und gilt im Sommer als einer der beliebtesten Bereiche zum Treibenlassen im Wasser.\n\nAuf dem Foto sieht man Besucher, die mit Schwimmringen oder kleinen aufblasbaren Booten langsam auf dem Wasser treiben.\nUnter dem wechselnden Licht des Waldes zu treiben ist ein sehr entspannendes Erlebnis.\n\nNach starkem Regen steigt der Wasserstand, und der große Felsen auf der rechten Seite der Schlucht wird häufig zu einem Punkt, an dem junge Leute ins Wasser springen.\nDa sich die Wassertiefe jedoch je nach Jahreszeit und Niederschlag verändert, sollte man vor einem Sprung unbedingt die Tiefe prüfen, um sicherzustellen, dass es sicher ist.","This is the coolest and most immersive section of the Piaopia River Gorge, where you can truly feel surrounded by the forest.\nAt this point, the water is about waist-deep for an adult, clear and cold, making it one of the most popular floating spots in summer.\n\nIn the photo, you can see visitors drifting slowly on the water with swim rings and inflatable boats. Floating here under the shifting forest light is a very relaxing experience.\n\nAfter heavy rain, the water level rises, and the large rock on the right side of the gorge often becomes a spot where young people attempt to jump into the water.\nHowever, water depth varies with season and rainfall, so always check the depth carefully before jumping to ensure safety.","ここは漂漂河峡谷の中で最も涼しく、森林に包まれる感覚をしっかり味わえる区間です。\nこの時期の水深は大人の腰あたりで、水は透明で冷たく、夏にもっとも人気のある漂流スポットの一つです。\n\n写真では、浮き輪や小型のインフレータブルボートでゆっくりと漂う人々の姿が見られます。\n木々の光が揺れる中で水に身を任せて漂う体験は、とてもリラックスできます。\n\n大雨のあとは水位が上がり、峡谷右側の大きな岩は若者が飛び込みに挑戦する場所になることがあります。\nただし水深は季節や降雨量によって変化するため、飛び込む前に必ず深さを確認し、安全を確保してください。","이곳은 표표허 협곡 중 가장 시원하고, 숲에 둘러싸인 느낌을 가장 잘 느낄 수 있는 구간입니다.\n이 시기의 수심은 성인 허리 정도이며, 물은 맑고 차가워 여름철 가장 인기 있는 떠내려가기(플로팅) 구간 중 하나입니다.\n\n사진에서는 튜브나 작은 보트를 타고 물 위를 천천히 떠다니는 사람들을 볼 수 있습니다.\n숲 사이로 비치는 빛 아래에서 물에 몸을 맡기고 떠 있는 경험은 매우 편안합니다.\n\n큰 비가 온 후에는 수위가 올라가 협곡 오른쪽의 큰 바위가 젊은 사람들이 다이빙을 시도하는 장소가 되기도 합니다.\n하지만 수심은 계절과 강수량에 따라 달라지므로, 다이빙을 할 경우 반드시 수심을 확인하여 안전을 확보해야 합니다."],"這裡的攔沙壩高度落差較大，一般會建議先從壩體中央的緩坡走上來，再往左側靠近山壁邊爬上壩頂，比較容易上壩頂。過程中會有小段路需要踩水前行，穿溯溪鞋或防滑鞋可以讓這段路變得輕鬆許多。\n壩旁的水池水色清透，呈現淡藍綠色，是個非常清涼的戲水區域。\n如果走得有點累，這裡是很好的休息點，可以泡泡水、補水、調整體力。\n但因為霸體高度差較大，爬上壩體時一定要注意腳下施力點，留意溼滑的地面。\n":["Dieser Sperrdamm hat einen großen Höhenunterschied.\nAm einfachsten erreicht man die Dammkrone, indem man zunächst die flachere mittlere Rampe hinaufgeht und sich dann links entlang der Felswand nach oben arbeitet.\nAuf einigen kurzen Abschnitten muss man durch flaches Wasser gehen; Schuhe mit guter Rutschfestigkeit oder spezielle Canyoning-Schuhe erleichtern den Weg erheblich.\n\nNeben dem Damm befindet sich ein klares, hellblaugrünes Becken – ein sehr erfrischender Ort zum Abkühlen und Spielen im Wasser.\nWenn man müde ist, bietet sich dieser Bereich ideal für eine Pause an: Wasser treten, trinken und Kräfte sammeln.\n\nAufgrund des großen Höhenunterschieds sollte man beim Aufstieg besonders auf die Standpunkte achten und auf nasse, rutschige Stellen Rücksicht nehmen.\n","This check dam has a significant height difference.\nIt’s generally easier to walk up the gentle slope in the center of the dam first, then climb along the left side near the rock wall to reach the top.\nThere are sections where you’ll need to step through shallow water, so wearing canyoning shoes or footwear with good traction will make the approach much easier.\n\nThe water beside the dam is clear and light blue-green, forming a very refreshing area for swimming and cooling down.\nIf you’re feeling tired, this is a great spot to rest, soak in the water, rehydrate, and recover your energy.\n\nHowever, because the dam has a steep drop, be sure to watch your footing when climbing up.\nPay attention to slippery surfaces and where you apply pressure with your feet.\n","この砂防ダムは高低差が大きく、上に登るには中央の緩やかな斜面を上がり、左側の岩壁に沿って進むルートが比較的登りやすいです。\n途中、一部は浅い水の中を歩く必要があるため、溯渓シューズや滑りにくい靴を履くとより安全に進めます。\n\nダムの横には透明な淡い青緑色の水たまりがあり、とても涼しく水遊びに適した場所です。\n少し歩き疲れた場合は、ここで水に浸かりながら休憩したり、水分補給をして体力を整えるのに最適です。\n\nただし、ダム本体に高低差があるため、登る際は足元の踏み場所に注意し、濡れて滑りやすい箇所に気をつけてください。\n","이 사방댐은 낙차가 큰 편입니다.\n댐 중앙의 완만한 경사를 먼저 올라간 뒤, 왼쪽 바위벽을 따라 오르면 댐 상단으로 오르기 더 수월합니다.\n일부 구간은 얕은 물을 밟고 지나야 하므로, 계곡화(溯溪) 신발이나 미끄럼 방지 신발을 착용하면 훨씬 편합니다.\n\n댐 옆에는 물빛이 맑고 옅은 청록빛을 띠는 시원한 물웅덩이가 있어 물놀이하기 좋습니다.\n걷다 피곤해지면 이곳에서 물에 발을 담그며 쉬고, 물을 마시고 체력을 회복할 수 있습니다.\n\n다만 댐의 높낮이 차가 큰 만큼, 올라갈 때는 발을 딛는 지점과 미끄러운 표면에 특히 주의해야 합니다.\n"],"過了河道後是柏油道路終點。車子建議不要開進來，小徑窄小車輛無法迴轉。":["Nach der Flussquerung endet die asphaltierte Straße.\nEs wird nicht empfohlen, mit dem Auto weiterzufahren, da der Weg schmal ist und keine Möglichkeit zum Wenden besteht.","After crossing the stream, the paved road reaches its end.\nIt is not recommended to drive in, as the path ahead is narrow and there is no space to turn a vehicle around.","川を渡ると舗装道路はここで終わります。\nこの先は道幅が狭く、車が転回できないため、車で進入することはおすすめしません。","하천을 건너면 포장도로가 끝납니다.\n이후 길이 좁아 차량이 회차할 공간이 없으므로, 차량 진입은 권장하지 않습니다."],"Ｍavic 2 pro":["","","",""]}}</json>
-      <projecttranslation langname="繁體中文" langcode="zh-TW"/>
-      <projecttranslation langname="Deutsch" langcode="de"/>
-      <projecttranslation langname="English" langcode="en"/>
-      <projecttranslation langname="日本語" langcode="ja"/>
-      <projecttranslation langname="한국어" langcode="ko"/>
+      <projecttranslation langcode="zh-TW" langname="繁體中文"/>
+      <projecttranslation langcode="de" langname="Deutsch"/>
+      <projecttranslation langcode="en" langname="English"/>
+      <projecttranslation langcode="ja" langname="日本語"/>
+      <projecttranslation langcode="ko" langname="한국어"/>
     </translations>
   </masternode>
-  <map mapstyle="roadmap" mapmaxzoom="18" index="0" title="" type="web" mapprovider="googlemap" id="Map01" mapurltemplate="http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" googlecustomstylecode=""/>
+  <map googlecustomstylecode="" mapurltemplate="http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" mapstyle="streets" index="0" type="web" id="Map01" mapprovider="openstreetmap" mapmaxzoom="18" title=""/>
 </tour>
