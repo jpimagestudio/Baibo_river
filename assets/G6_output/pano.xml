@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node2" hassounds="0" appversion="7.1.11" apprev="21010">
+  <panorama id="node2">
+    <input levelbiashidpi="1.000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3024" levelbias="0.400" overlap="1" levelingroll="0" cylinder="1" flat="1" levelingpitch="0" width="4032" leveltilesize="510">
+      <level height="3024" preload="0" predecode="0" width="4032"/>
+      <level height="1512" preload="0" predecode="0" width="2016"/>
+      <level height="756" preload="0" predecode="0" width="1008"/>
+      <level height="378" preload="1" predecode="1" width="504"/>
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="19.5017" fovmode="2">
+      <start pan="0" fov="500" tilt="0"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fov="140" fovstereographic="330" scaletofit="0" tilt="90"/>
+    </view>
+    <userdata tags="Gallery6" nodeid="node2" datetime="2025/9/13 10:47" source="iPhone 16 Pro" info="" author="" description="跨過漂漂河上游的小小石堆後，進入另外一個秘境。這裡的水流淺，可以玩水的區域比較少。" title="白鮑溪秘境" latitude="23.871753" heading="19.5017" customnodeid="" comment="" copyright="" longitude="121.477669" altitude="213.75"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label backgroundcolor="0xffffff" borderradius="1" height="20" borderalpha="1" textalpha="1" border="1" bordercolor="0x000000" wordwrap="1" backgroundalpha="1" enabled="1" textcolor="0x000000" width="180" background="1"/>
+      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
+    </hotspots>
+    <media/>
+    <transition zoomspeed="2" zoomoutpause="1" softedge="0" delay="none" zoomafteroutfov="40" blendcolor="0x000000" zoomfov="40" blendtime="1" enabled="1" type="crossdissolve" zoomin="0" zoomout="0" zoomafterinfov="140"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
+    <control sensitivity="8" invertcontrol="1" rubberband="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="0" contextvr="1" contextprojections="0" speedwheel="1" simulatemass="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" dblclickfullscreen="0" contextfullscreen="1" invertwheel="0"/>
+  </panorama>
+  <panorama id="node3">
+    <input levelbiashidpi="1.000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3024" levelbias="0.400" overlap="1" levelingroll="0" cylinder="1" flat="1" levelingpitch="0" width="4032" leveltilesize="510">
+      <level height="3024" preload="0" predecode="0" width="4032"/>
+      <level height="1512" preload="0" predecode="0" width="2016"/>
+      <level height="756" preload="0" predecode="0" width="1008"/>
+      <level height="378" preload="1" predecode="1" width="504"/>
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="223.81" fovmode="2">
+      <start pan="0" fov="500" tilt="0"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fov="140" fovstereographic="330" scaletofit="0" tilt="90"/>
+    </view>
+    <userdata tags="Gallery6" nodeid="node3" datetime="2025/9/13 10:49" source="iPhone 16 Pro" info="" author="" description="在豐水期的時候，這裡可以從右側的大石頭跳下來到溪裡。不過目前河床的石頭因為沖刷累積的比較多，豐水期也不建議跳水。&#xa;" title="白鮑溪秘境" latitude="23.871883" heading="223.81" customnodeid="" comment="" copyright="" longitude="121.477767" altitude="220.15"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label backgroundcolor="0xffffff" borderradius="1" height="20" borderalpha="1" textalpha="1" border="1" bordercolor="0x000000" wordwrap="1" backgroundalpha="1" enabled="1" textcolor="0x000000" width="180" background="1"/>
+      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
+    </hotspots>
+    <media/>
+    <transition zoomspeed="2" zoomoutpause="1" softedge="0" delay="none" zoomafteroutfov="40" blendcolor="0x000000" zoomfov="40" blendtime="1" enabled="1" type="crossdissolve" zoomin="0" zoomout="0" zoomafterinfov="140"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
+    <control sensitivity="8" invertcontrol="1" rubberband="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="0" contextvr="1" contextprojections="0" speedwheel="1" simulatemass="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" dblclickfullscreen="0" contextfullscreen="1" invertwheel="0"/>
+  </panorama>
+  <panorama id="node1">
+    <input levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3024" levelbias="0.400" overlap="1" levelingroll="0" cylinder="1" flat="1" levelingpitch="0" width="4032" leveltilesize="510">
+      <level height="3024" preload="0" predecode="0" width="4032"/>
+      <level height="1512" preload="0" predecode="0" width="2016"/>
+      <level height="756" preload="0" predecode="0" width="1008"/>
+      <level height="378" preload="1" predecode="1" width="504"/>
+      <preview color="0x808080"/>
+    </input>
+    <view pannorth="262.406" fovmode="2">
+      <start pan="0" fov="500" tilt="0"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fov="140" fovstereographic="330" scaletofit="0" tilt="90"/>
+    </view>
+    <userdata tags="Gallery6" nodeid="node1" datetime="2025/9/13 10:47" source="iPhone 16 Pro" info="" author="" description="這裡的水深較深，更加幽靜，也更難抵達。要前往探索，除了走水路一路攀爬上來之外，也可以走小徑抵達，但是一切探索的行動背後都需要有萬全的準備，才能夠盡情的享受這一切樂趣。" title="白鮑溪秘境" latitude="23.871722" heading="262.406" customnodeid="" comment="" copyright="" longitude="121.477661" altitude="214.89"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label backgroundcolor="0xffffff" borderradius="1" height="20" borderalpha="1" textalpha="1" border="1" bordercolor="0x000000" wordwrap="1" backgroundalpha="1" enabled="1" textcolor="0x000000" width="180" background="1"/>
+      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1"/>
+    </hotspots>
+    <media/>
+    <transition zoomspeed="2" zoomoutpause="1" softedge="0" delay="none" zoomafteroutfov="40" blendcolor="0x000000" zoomfov="40" blendtime="1" enabled="1" type="crossdissolve" zoomin="0" zoomout="0" zoomafterinfov="140"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
+    <control sensitivity="8" invertcontrol="1" rubberband="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="0" contextvr="1" contextprojections="0" speedwheel="1" simulatemass="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" dblclickfullscreen="0" contextfullscreen="1" invertwheel="0"/>
+  </panorama>
+  <masternode>
+    <userdata author="JP爵攝數位影像工作室 | JP Image Studio" title="花蓮白鮑溪｜線上實境導覽" tags="" comment="" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." description="白鮑溪漂漂河上游秘境"/>
+    <animationsequences>
+      <sequence title="Animation01"/>
+    </animationsequences>
+    <translations>
+      <json>{"languages":["de","en","ja","ko"],"projectLanguage":"zh-TW","translations":{"2025/9/13 10:47":["","","",""],"2025/9/13 10:49":["","","",""],"Enter Fullscreen":["","","",""],"Enter VR":["","","",""],"Exit Fullscreen":["","","",""],"JP爵攝數位影像工作室 | JP Image Studio":["JP Image Studio | Studio für Digitale Bildproduktion","JP爵攝數位影像工作室 | JP Image Studio","JP爵攝デジタル映像スタジオ | JP Image Studio","JP 작섭 디지털 영상·파노라마 스튜디오 | JP Image Studio"],"iPhone 16 Pro":["","","",""],"© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved.":["© 2025 JP Image Studio (JP爵攝數位影像工作室). Alle Rechte vorbehalten.","© 2025 JP Image Studio (JP爵攝數位影像工作室). All rights reserved.","© 2025 JP Image Studio（JP爵攝數位影像工作室）. 無断転載を禁じます","© 2025 JP Image Studio (JP爵攝數位影像工作室). 무단 복제 및 배포를 금합니다."],"在豐水期的時候，這裡可以從右側的大石頭跳下來到溪裡。不過目前河床的石頭因為沖刷累積的比較多，豐水期也不建議跳水。\n":["In der Hochwasserzeit kann man von dem großen Felsen auf der rechten Seite in den Fluss springen.\nDerzeit haben sich jedoch aufgrund der Strömung mehr Steine am Flussbett angesammelt, daher wird das Springen selbst bei hohem Wasserstand nicht empfohlen.\n","During the high-water season, you can jump into the creek from the large rock on the right side.\nHowever, at the moment, more rocks have accumulated on the riverbed due to water flow, so jumping is not recommended even during high water.\n","水量が多い季節には、右側の大きな岩から川に飛び込むことができます。\nしかし、現在は流水によって河床に石が多く堆積しているため、水量が多い時期でも飛び込みはおすすめしません。\n","수량이 많은 시기에는 오른쪽 큰 바위에서 계곡으로 뛰어들 수 있습니다.\n하지만 최근에는 물 흐름으로 인해 강바닥에 돌이 많이 쌓여 있어, 수량이 많을 때에도 다이빙을 권장하지 않습니다.\n"],"白鮑溪漂漂河上游秘境":["Baibao-Fluss漂漂河 — Oberes verborgenes Schluchtgebiet","Baibao Creek Piaopia River — Upper Hidden Gorge","白鮑渓・漂漂河 上流の秘境","백포시(白鮑溪) 표표허 상류 비밀 구간"],"白鮑溪秘境":["Baibao-Fluss Geheimstelle","The Hidden Gorge of Baibao Creek, Hualien","白鮑渓の秘境","백포시(白鮑溪) 비밀 명소"],"花蓮白鮑溪｜線上實境導覽":["Baibao Creek in Hualien | Interaktive Online-Tour","Hualien Baibao Creek | Online Virtual Tour","花蓮・白鮑渓｜オンライン実景ツアー","화롄 백포시(白鮑溪)｜온라인 실경 투어"],"跨過漂漂河上游的小小石堆後，進入另外一個秘境。這裡的水流淺，可以玩水的區域比較少。":["Nachdem man den kleinen Felsbereich im oberen Abschnitt des漂漂河 überquert hat, gelangt man in einen weiteren versteckten Bereich.\nDas Wasser ist hier flach, und die Stellen, an denen man im Wasser spielen kann, sind eher begrenzt.","After stepping over the small pile of rocks at the upper section of the Piaopia River, you’ll enter another hidden area.\nThe water here is shallow, and the space suitable for playing in the water is relatively limited.","漂漂河上流にある小さな岩場を越えると、さらに別の秘境に入ります。\nこの区間は水深が浅く、水遊びに適した場所はあまり多くありません。","표표허 상류의 작은 바위 지대를 넘어가면 또 다른 비밀 구간에 들어서게 됩니다.\n이곳은 수심이 얕고 물놀이를 할 수 있는 공간이 상대적으로 적습니다."],"這裡的水深較深，更加幽靜，也更難抵達。要前往探索，除了走水路一路攀爬上來之外，也可以走小徑抵達，但是一切探索的行動背後都需要有萬全的準備，才能夠盡情的享受這一切樂趣。":["Das Wasser ist hier tiefer, ruhiger und der Zugang ist schwieriger.\nMan kann diesen Bereich entweder flussaufwärts durch das Wasser erklimmen oder über einen kleinen Pfad erreichen.\nEgal für welche Route man sich entscheidet: Gute Vorbereitung ist wichtig, um die Erfahrung sicher und vollständig genießen zu können.","The water here is deeper, quieter, and harder to reach.\nBesides climbing upstream through the water, you can also access this area via a small trail.\nWhichever route you choose, proper preparation is essential to fully enjoy the experience safely.","この区間は水深が深く、静かで、到達するのも少し難しい場所です。\n上流へ水の中を辿って登る方法のほか、小径を通ってアクセスすることもできます。\nどちらの方法でも、安全に楽しむためには十分な準備が欠かせません。","이곳은 수심이 더 깊고 한적하며, 접근도 더 어렵습니다.\n상류를 따라 물길을 타고 올라오는 방법 외에도 작은 오솔길로 접근할 수 있습니다.\n어느 경로를 선택하든, 안전하게 즐기기 위해서는 철저한 준비가 필요합니다."]}}</json>
+      <projecttranslation langname="繁體中文" langcode="zh-TW"/>
+      <projecttranslation langname="Deutsch" langcode="de"/>
+      <projecttranslation langname="English" langcode="en"/>
+      <projecttranslation langname="日本語" langcode="ja"/>
+      <projecttranslation langname="한국어" langcode="ko"/>
+    </translations>
+  </masternode>
+</tour>
