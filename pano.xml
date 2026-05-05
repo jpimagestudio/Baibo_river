@@ -118,7 +118,7 @@
       <label enabled="1" height="20" width="180" textcolor="0x000000" wordwrap="1" borderalpha="1" borderradius="1" backgroundalpha="1" bordercolor="0x000000" border="1" textalpha="1" background="1" backgroundcolor="0xffffff"/>
       <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff"/>
       <hotspot pan="-35.1065" description="" skinid="ht_node" url="{node19}" tilt="-6.11" title="攔沙壩" id="Point01" target="$fwd" distance="107.65"/>
-      <hotspot pan="167.817" description="" skinid="ht_node" url="{node18}" tilt="-81.8" title="河道" id="Point02" target="$fwd" distance="25.828"/>
+      <hotspot pan="169.657" description="" skinid="ht_node" url="{node18}" tilt="-6.57" title="河道" id="Point02" target="$fwd" distance="25.828"/>
     </hotspots>
     <media>
       <sound pan="0.000" tilt="0.000" id="">
@@ -181,7 +181,7 @@
     <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
       <label enabled="1" height="20" width="180" textcolor="0x000000" wordwrap="1" borderalpha="1" borderradius="1" backgroundalpha="1" bordercolor="0x000000" border="1" textalpha="1" background="1" backgroundcolor="0xffffff"/>
       <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff"/>
-      <hotspot pan="7.42901" description="" skinid="ht_node" url="{node25}" tilt="0.92" title="漂漂河・末段" id="Point02" target="$fwd" distance="60.5619"/>
+      <hotspot pan="7.42901" description="" skinid="ht_node" url="{node25}" tilt="0.92" title="峽谷・末段" id="Point02" target="$fwd" distance="60.5619"/>
       <hotspot pan="159.754" description="" skinid="ht_node" url="{node18}" tilt="0" title="河道" id="Point01" target="$fwd" distance="39.1834"/>
     </hotspots>
     <media>
@@ -209,12 +209,12 @@
       <min pan="0" fovpixel="0.3" tilt="-90"/>
       <max pan="360" fov="120" fovfisheye="360" tilt="90" scaletofit="1" fovstereographic="330"/>
     </view>
-    <userdata description="這裡是漂漂河峽谷中最清涼、最能感受到山林包覆感的一段。&#xa;此時的水深大約到成年人的腰部，水色透明而冷冽，是夏天最受歡迎的漂浮區域。&#xa;&#xa;有許多遊客帶著泳圈、充氣小船在水面慢慢飄著，在這種山林光影下漂浮，是非常放鬆的體驗。&#xa;&#xa;大雨過後水位會升高，溪谷右邊的大岩石也會變成年輕人常挑戰的跳水點，不過水深會因季節和雨量變化，跳水前務必確認水深是否能夠安全進行跳水活動。" latitude="23.87283160" altitude="193.98" nodeid="node25" heading="184.122" title="漂漂河・末段" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." author="" comment="" datetime="2025/9/5 11:01" source="iPhone 16 pro HDR " info="" tags="iphone16pro|Pano" longitude="121.47824836" customnodeid=""/>
+    <userdata description="這裡是漂漂河峽谷中最清涼、最能感受到山林包覆感的一段。&#xa;此時的水深大約到成年人的腰部，水色透明而冷冽，是夏天最受歡迎的漂浮區域。&#xa;&#xa;有許多遊客帶著泳圈、充氣小船在水面慢慢飄著，在這種山林光影下漂浮，是非常放鬆的體驗。&#xa;&#xa;大雨過後水位會升高，溪谷右邊的大岩石也會變成年輕人常挑戰的跳水點，不過水深會因季節和雨量變化，跳水前務必確認水深是否能夠安全進行跳水活動。" latitude="23.87283160" altitude="193.98" nodeid="node25" heading="184.122" title="峽谷・末段" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." author="" comment="" datetime="2025/9/5 11:01" source="iPhone 16 pro HDR " info="" tags="iphone16pro|Pano" longitude="121.47824836" customnodeid=""/>
     <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
       <label enabled="1" height="20" width="180" textcolor="0x000000" wordwrap="1" borderalpha="1" borderradius="1" backgroundalpha="1" bordercolor="0x000000" border="1" textalpha="1" background="1" backgroundcolor="0xffffff"/>
       <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff"/>
       <hotspot pan="182.471" description="" skinid="ht_node" url="{node21}" tilt="0" title="河谷淺水區" id="Point01" target="$fwd" distance="60.5619"/>
-      <hotspot pan="-356.23" description="" skinid="ht_node" url="{node26}" tilt="-0.69" title="漂漂河・深水段" id="Point02" target="$fwd" distance="51.8283"/>
+      <hotspot pan="-356.23" description="" skinid="ht_node" url="{node26}" tilt="-0.69" title="峽谷・深水段" id="Point02" target="$fwd" distance="51.8283"/>
     </hotspots>
     <media>
       <sound pan="0.000" tilt="0.000" id="">
@@ -241,12 +241,12 @@
       <min pan="0" fovpixel="0.3" tilt="-90"/>
       <max pan="360" fov="120" fovfisheye="360" tilt="90" scaletofit="1" fovstereographic="330"/>
     </view>
-    <userdata description="此處水流緩慢，水深約莫及腰（枯水期）兩側岩壁造就了峽谷樣貌，就是「漂漂河峽谷」這個稱號的由來。水質清澈見底，在陽光的照射作用下，溪水成碧綠色，小魚隨處可見。" latitude="23.87237284" altitude="0.00" nodeid="node26" heading="-90.8342" title="漂漂河・深水段" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." author="" comment="" datetime="2025/9/5 11:37" source="Insta360 X4" info="" tags="insta360x4|PTGuioutput" longitude="121.47815824" customnodeid=""/>
+    <userdata description="此處水流緩慢，水深約莫及腰（枯水期）兩側岩壁造就了峽谷樣貌，就是「漂漂河峽谷」這個稱號的由來。水質清澈見底，在陽光的照射作用下，溪水成碧綠色，小魚隨處可見。" latitude="23.87237284" altitude="0.00" nodeid="node26" heading="-90.8342" title="峽谷・深水段" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." author="" comment="" datetime="2025/9/5 11:37" source="Insta360 X4" info="" tags="insta360x4|PTGuioutput" longitude="121.47815824" customnodeid=""/>
     <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
       <label enabled="1" height="20" width="180" textcolor="0x000000" wordwrap="1" borderalpha="1" borderradius="1" backgroundalpha="1" bordercolor="0x000000" border="1" textalpha="1" background="1" backgroundcolor="0xffffff"/>
       <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff"/>
-      <hotspot pan="-302.47" description="" skinid="ht_node" url="{node27}" tilt="3.63" title="漂漂河・前段" id="Point01" target="$fwd" distance="46.7009"/>
-      <hotspot pan="-124.868" description="" skinid="ht_node" url="{node25}" tilt="-0.35" title="漂漂河・末段" id="Point02" target="$fwd" distance="51.8283"/>
+      <hotspot pan="-302.47" description="" skinid="ht_node" url="{node27}" tilt="3.63" title="峽谷・前段" id="Point01" target="$fwd" distance="46.7009"/>
+      <hotspot pan="-124.868" description="" skinid="ht_node" url="{node25}" tilt="-0.35" title="峽谷・末段" id="Point02" target="$fwd" distance="51.8283"/>
     </hotspots>
     <media>
       <sound pan="0.000" tilt="0.000" id="">
@@ -273,11 +273,11 @@
       <min pan="0" fovpixel="0.3" tilt="-90"/>
       <max pan="360" fov="120" fovfisheye="360" tilt="90" scaletofit="1" fovstereographic="330"/>
     </view>
-    <userdata description="再往前探索就是另外一個秘境，不過要先越過高約1.5公尺落差的岩石堆，爬過岩石後是另外一個淺灘區。當豐水期時，那裡也是個戲水的好區域，並且可以使用小型獨木舟進行泛舟活動。&#xa;溯溪者需要迎著上方的水流攀爬，是較具挑戰性的路段，建議具備合宜裝備（溯溪鞋、防寒衣、安全帽）並且攜伴同行再嘗試通過。&#xa;" latitude="23.87196568" altitude="0.00" nodeid="node27" heading="-9.6887" title="漂漂河・前段" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." author="" comment="" datetime="2025/9/5 11:40" source="Insta360 X4" info="" tags="insta360x4|PTGuioutput" longitude="121.47804558" customnodeid=""/>
+    <userdata description="再往前探索就是另外一個秘境，不過要先越過高約1.5公尺落差的岩石堆，爬過岩石後是另外一個淺灘區。當豐水期時，那裡也是個戲水的好區域，並且可以使用小型獨木舟進行泛舟活動。&#xa;溯溪者需要迎著上方的水流攀爬，是較具挑戰性的路段，建議具備合宜裝備（溯溪鞋、防寒衣、安全帽）並且攜伴同行再嘗試通過。&#xa;" latitude="23.87196568" altitude="0.00" nodeid="node27" heading="-9.6887" title="峽谷・前段" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." author="" comment="" datetime="2025/9/5 11:40" source="Insta360 X4" info="" tags="insta360x4|PTGuioutput" longitude="121.47804558" customnodeid=""/>
     <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
       <label enabled="1" height="20" width="180" textcolor="0x000000" wordwrap="1" borderalpha="1" borderradius="1" backgroundalpha="1" bordercolor="0x000000" border="1" textalpha="1" background="1" backgroundcolor="0xffffff"/>
       <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff"/>
-      <hotspot pan="-30.908" description="" skinid="ht_node" url="{node26}" tilt="1.04" title="漂漂河・深水段" id="Point01" target="$fwd" distance="46.7009"/>
+      <hotspot pan="-30.908" description="" skinid="ht_node" url="{node26}" tilt="1.04" title="峽谷・深水段" id="Point01" target="$fwd" distance="46.7009"/>
       <hotspot pan="164.663" description="" skinid="ht_node" url="{node24}" tilt="0.53" title="秘境・Ｘ" id="Point02" target="$fwd" distance="56.9075"/>
     </hotspots>
     <media>
@@ -309,7 +309,7 @@
     <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
       <label enabled="1" height="20" width="180" textcolor="0x000000" wordwrap="1" borderalpha="1" borderradius="1" backgroundalpha="1" bordercolor="0x000000" border="1" textalpha="1" background="1" backgroundcolor="0xffffff"/>
       <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff"/>
-      <hotspot pan="-19.4413" description="" skinid="ht_node" url="{node27}" tilt="-16.3" title="漂漂河・前段" id="Point01" target="$fwd" distance="56.9075"/>
+      <hotspot pan="-19.4413" description="" skinid="ht_node" url="{node27}" tilt="-16.3" title="峽谷・前段" id="Point01" target="$fwd" distance="56.9075"/>
     </hotspots>
     <media>
       <sound pan="0.000" tilt="0.000" id="">
