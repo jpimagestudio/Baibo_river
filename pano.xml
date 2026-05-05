@@ -1,329 +1,329 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour hassounds="1" start="node20" appversion="7.1.11" apprev="21010">
-  <panorama hideabout="1" id="node17">
-    <input width="3500" levelingpitch="0" overlap="1" levelbias="0.400" levelbiashidpi="1.000" height="3500" leveltilesize="510" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
-      <level preload="0" width="3500" height="3500" predecode="0"/>
-      <level preload="0" width="1750" height="1750" predecode="0"/>
-      <level preload="0" width="875" height="875" predecode="0"/>
-      <level preload="1" width="437" height="437" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
-    </input>
-    <view pannorth="-59.9684" fovmode="2">
-      <start pan="0" tilt="0" projection="4" fov="100"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
-      <min fovpixel="0.3" pan="0" tilt="-90"/>
-      <max fovfisheye="360" pan="360" tilt="90" scaletofit="1" fov="120" fovstereographic="330"/>
-    </view>
-    <userdata customnodeid="" nodeid="node17" datetime="2025/9/4 11:13" comment="" longitude="121.48044884" info="" title="空拍視角" source="Ｍavic 2 pro" description="從空拍角度往後看可以找到剛剛出發的那座涼亭，往前看也能清楚看見這段溪谷的地形。&#xa;水色非常乾淨，若走累了，旁邊就是天然的冰涼泡腳池，隨時都能停下來休息。&#xa;從這裡開始在河道中行走會有一些比較溜滑的石頭，需要注意腳下的狀況，踏穩後再前進。&#xa;沿路也能看到許多玉石、礫石，邊走邊看地上或是河道的石頭會更有趣。&#xa;這一段幾乎沒有樹蔭，建議做好防曬並記得補水，行走時務必穿溯溪鞋或防滑鞋，會安全很多。" tags="aerial|Pano" author="" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." latitude="23.87580418" heading="-59.9684"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label width="180" borderalpha="1" bordercolor="0x000000" border="1" backgroundalpha="1" enabled="1" background="1" textcolor="0x000000" textalpha="1" height="20" wordwrap="1" borderradius="1" backgroundcolor="0xffffff"/>
-      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
-      <hotspot url="{node20}" distance="149.521" tilt="-8.02" skinid="ht_node" target="$fwd" title="步行起點" description="" pan="-95.78" id="Point01"/>
-      <hotspot url="{node19}" distance="184.012" tilt="0" skinid="ht_node" target="$fwd" title="攔沙壩" description="" pan="84.1978" id="Point02"/>
-    </hotspots>
-    <media>
-      <sound pan="0.000" id="" tilt="0.000">
-        <source url="media/sunny-side-of-fun-248265.mp3"/>
-      </sound>
-    </media>
-    <transition zoomafterinfov="140" softedge="0" zoomin="0" enabled="1" blendtime="1" zoomout="0" zoomafteroutfov="40" type="crossdissolve" zoomspeed="2" zoomfov="40" delay="none" zoomoutpause="1" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="0" zoomcentercursor="1" contextvr="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" rubberband="0" invertcontrol="1">
-      <menulink url="https://oring-brother.com" text="JP爵攝數位影像工作室"/>
-    </control>
-  </panorama>
+<tour start="node20" hassounds="1" appversion="7.1.12" apprev="21036">
   <panorama hideabout="1" id="node20">
-    <input width="3500" levelingpitch="0" overlap="1" levelbias="0.400" levelbiashidpi="1.000" height="3500" leveltilesize="510" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
-      <level preload="0" width="3500" height="3500" predecode="0"/>
-      <level preload="0" width="1750" height="1750" predecode="0"/>
-      <level preload="0" width="875" height="875" predecode="0"/>
-      <level preload="1" width="437" height="437" predecode="1"/>
+    <input levelingpitch="0" height="3500" width="3500" leveltilesize="510" levelbias="0.400" levelingroll="0" overlap="1" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
+      <level height="3500" width="3500" preload="0" predecode="0"/>
+      <level height="1750" width="1750" preload="0" predecode="0"/>
+      <level height="875" width="875" preload="0" predecode="0"/>
+      <level height="437" width="437" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="223.649" fovmode="2">
-      <start pan="0" tilt="0" projection="4" fov="100"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
-      <min fovpixel="0.3" pan="0" tilt="-90"/>
-      <max fovfisheye="360" pan="360" tilt="90" scaletofit="1" fov="120" fovstereographic="330"/>
+      <start pan="0" fov="100" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="0.3" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" tilt="90" scaletofit="1" fovstereographic="330"/>
     </view>
-    <userdata customnodeid="" nodeid="node20" datetime="2025/9/4 12:30" comment="" longitude="121.48131520" info="" title="步行起點" source="iPhone 16 pro HDR " description="行車的道路終點，往前行道路不通。旁邊有涼亭可以休息，也有自行車駐車位。&#xa;溪水淹過車道，站在車道上就能看到小魚從腳邊游過去，很多人還沒開始走就在這裡先玩起水來。&#xa;往上游大約走二十分鐘，就會抵達網陸流傳的白鮑溪秘境「漂漂河峽谷」。&#xa;&#xa;路不難走，但河道中的石頭滑、部分區段會行走在河道上，建議從這裡開始就穿上溯溪鞋、帶防水袋，由於此區位於山谷內，手機訊號幾乎沒有，如果發生意外時，無法在第一時間獲得醫療救護，所以安全設施要做好，最好是穿著溯溪鞋或是任何具有明顯止滑效果的鞋類。&#xa;&#xa;旅程從這裡開始，大自然的美會越往上游越精彩。" tags="aerial|Pano" author="" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." latitude="23.87689071" heading="223.649"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label width="180" borderalpha="1" bordercolor="0x000000" border="1" backgroundalpha="1" enabled="1" background="1" textcolor="0x000000" textalpha="1" height="20" wordwrap="1" borderradius="1" backgroundcolor="0xffffff"/>
-      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
-      <hotspot url="{node17}" distance="149.521" tilt="4.74" skinid="ht_node" target="$fwd" title="空拍視角" description="" pan="-354.89" id="Point01"/>
-      <hotspot url="" target="" title="車輛通行終點" description="過了河道後是柏油道路終點。車子建議不要開進來，小徑窄小車輛無法迴轉。" pan="-292.16" id="Point03" tilt="-3.83" skinid="ht_info"/>
-      <hotspot url="" target="" title="小心腳下的小魚" description="看見那隻小魚了嗎？&#xa;&#xa;這裡隨時都會看到一堆小魚從腳邊游過去。別擔心你會踩到牠，牠跑得比你腳的速度還快" pan="-270.59" id="Point02" tilt="-37.92" skinid="ht_info"/>
+    <userdata description="行車的道路終點，往前行道路不通。旁邊有涼亭可以休息，也有自行車駐車位。&#xa;溪水淹過車道，站在車道上就能看到小魚從腳邊游過去，很多人還沒開始走就在這裡先玩起水來。&#xa;往上游大約走二十分鐘，就會抵達網陸流傳的白鮑溪秘境「漂漂河峽谷」。&#xa;&#xa;路不難走，但河道中的石頭滑、部分區段會行走在河道上，建議從這裡開始就穿上溯溪鞋、帶防水袋，由於此區位於山谷內，手機訊號幾乎沒有，如果發生意外時，無法在第一時間獲得醫療救護，所以安全設施要做好，最好是穿著溯溪鞋或是任何具有明顯止滑效果的鞋類。&#xa;&#xa;旅程從這裡開始，大自然的美會越往上游越精彩。" latitude="23.87689071" nodeid="node20" heading="223.649" title="步行起點" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." author="" comment="" datetime="2025/9/4 12:30" source="iPhone 16 pro HDR " info="" tags="aerial|Pano" longitude="121.48131520" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label enabled="1" height="20" width="180" textcolor="0x000000" wordwrap="1" borderalpha="1" borderradius="1" backgroundalpha="1" bordercolor="0x000000" border="1" textalpha="1" background="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-354.99" description="" skinid="ht_node" url="{node17}" tilt="-2.78" title="空拍視角" id="Point01" target="$fwd" distance="149.521"/>
+      <hotspot title="車輛通行終點" pan="-292.16" description="過了河道後是柏油道路終點。車子建議不要開進來，小徑窄小車輛無法迴轉。" skinid="ht_info" url="" tilt="-3.83" id="Point03" target=""/>
+      <hotspot title="看見那隻小魚了嗎？&#xa;&#xa;這裡隨時都會看到一堆小魚從腳邊游過去。別擔心你會踩到牠，牠跑得比你腳的速度還快" pan="-269.74" description="" skinid="ht_video_file" url="media/video.mp4" tilt="-21.09" id="Point04" target=""/>
     </hotspots>
     <media>
-      <sound pan="0.000" id="" tilt="0.000">
-        <source url="media/sunny-side-of-fun-248265.mp3"/>
+      <sound pan="0.000" tilt="0.000" id="">
+        <source url="media/Beau Walker  Jurgance - Summer freetouse.com.mp3"/>
       </sound>
     </media>
-    <transition zoomafterinfov="140" softedge="0" zoomin="0" enabled="1" blendtime="1" zoomout="0" zoomafteroutfov="40" type="crossdissolve" zoomspeed="2" zoomfov="40" delay="none" zoomoutpause="1" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="0" zoomcentercursor="1" contextvr="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" rubberband="0" invertcontrol="1">
-      <menulink url="https://oring-brother.com" text="JP爵攝數位影像工作室"/>
+    <transition enabled="1" softedge="0" blendtime="1" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000" delay="none" zoomin="0" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" type="crossdissolve" zoomout="0"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control contextvr="0" dblclickfullscreen="0" lockedwheel="0" sensitivity="8" lockedmouse="0" hideabout="1" simulatemass="1" zoomcentercursor="1" lockedkeyboard="0" speedwheel="1" lockedkeyboardzoom="0" invertcontrol="1" invertwheel="0" contextfullscreen="0" contextprojections="0" rubberband="0">
+      <menulink text="JP爵攝數位影像工作室" url="https://oring-brother.com"/>
+    </control>
+  </panorama>
+  <panorama hideabout="1" id="node17">
+    <input levelingpitch="0" height="3500" width="3500" leveltilesize="510" levelbias="0.400" levelingroll="0" overlap="1" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
+      <level height="3500" width="3500" preload="0" predecode="0"/>
+      <level height="1750" width="1750" preload="0" predecode="0"/>
+      <level height="875" width="875" preload="0" predecode="0"/>
+      <level height="437" width="437" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="-59.9684" fovmode="2">
+      <start pan="0" fov="100" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="0.3" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" tilt="90" scaletofit="1" fovstereographic="330"/>
+    </view>
+    <userdata description="從空拍角度往後看可以找到剛剛出發的那座涼亭，往前看也能清楚看見這段溪谷的地形。&#xa;水色非常乾淨，若走累了，旁邊就是天然的冰涼泡腳池，隨時都能停下來休息。&#xa;從這裡開始在河道中行走會有一些比較溜滑的石頭，需要注意腳下的狀況，踏穩後再前進。&#xa;沿路也能看到許多玉石、礫石，邊走邊看地上或是河道的石頭會更有趣。&#xa;這一段幾乎沒有樹蔭，建議做好防曬並記得補水，行走時務必穿溯溪鞋或防滑鞋，會安全很多。" latitude="23.87580418" nodeid="node17" heading="-59.9684" title="空拍視角" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." author="" comment="" datetime="2025/9/4 11:13" source="Ｍavic 2 pro" info="" tags="aerial|Pano" longitude="121.48044884" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label enabled="1" height="20" width="180" textcolor="0x000000" wordwrap="1" borderalpha="1" borderradius="1" backgroundalpha="1" bordercolor="0x000000" border="1" textalpha="1" background="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-95.78" description="" skinid="ht_node" url="{node20}" tilt="-8.02" title="步行起點" id="Point01" target="$fwd" distance="149.521"/>
+      <hotspot pan="84.1978" description="" skinid="ht_node" url="{node19}" tilt="0" title="攔沙壩" id="Point02" target="$fwd" distance="184.012"/>
+    </hotspots>
+    <media>
+      <sound pan="0.000" tilt="0.000" id="">
+        <source url="media/Beau Walker  Jurgance - Summer freetouse.com.mp3"/>
+      </sound>
+    </media>
+    <transition enabled="1" softedge="0" blendtime="1" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000" delay="none" zoomin="0" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" type="crossdissolve" zoomout="0"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control contextvr="0" dblclickfullscreen="0" lockedwheel="0" sensitivity="8" lockedmouse="0" hideabout="1" simulatemass="1" zoomcentercursor="1" lockedkeyboard="0" speedwheel="1" lockedkeyboardzoom="0" invertcontrol="1" invertwheel="0" contextfullscreen="0" contextprojections="0" rubberband="0">
+      <menulink text="JP爵攝數位影像工作室" url="https://oring-brother.com"/>
     </control>
   </panorama>
   <panorama hideabout="1" id="node19">
-    <input width="3500" levelingpitch="0" overlap="1" levelbias="0.400" levelbiashidpi="1.000" height="3500" leveltilesize="510" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
-      <level preload="0" width="3500" height="3500" predecode="0"/>
-      <level preload="0" width="1750" height="1750" predecode="0"/>
-      <level preload="0" width="875" height="875" predecode="0"/>
-      <level preload="1" width="437" height="437" predecode="1"/>
+    <input levelingpitch="0" height="3500" width="3500" leveltilesize="510" levelbias="0.400" levelingroll="0" overlap="1" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
+      <level height="3500" width="3500" preload="0" predecode="0"/>
+      <level height="1750" width="1750" preload="0" predecode="0"/>
+      <level height="875" width="875" preload="0" predecode="0"/>
+      <level height="437" width="437" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="257.662" fovmode="2">
-      <start pan="0" tilt="0" projection="4" fov="100"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
-      <min fovpixel="0.3" pan="0" tilt="-90"/>
-      <max fovfisheye="360" pan="360" tilt="90" scaletofit="1" fov="120" fovstereographic="330"/>
+      <start pan="0" fov="100" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="0.3" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" tilt="90" scaletofit="1" fovstereographic="330"/>
     </view>
-    <userdata customnodeid="" nodeid="node19" datetime="2025/9/4 11:49" comment="" longitude="121.47938937" info="" title="攔沙壩" source="iPhone 16 pro HDR " description="這裡的攔沙壩高度落差較大，一般會建議先從壩體中央的緩坡走上來，再往左側靠近山壁邊爬上壩頂，比較容易上壩頂。過程中會有小段路需要踩水前行，穿溯溪鞋或防滑鞋可以讓這段路變得輕鬆許多。&#xa;壩旁的水池水色清透，呈現淡藍綠色，是個非常清涼的戲水區域。&#xa;如果走得有點累，這裡是很好的休息點，可以泡泡水、補水、調整體力。&#xa;但因為霸體高度差較大，爬上壩體時一定要注意腳下施力點，留意溼滑的地面。&#xa;" tags="aerial|Pano" author="" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." latitude="23.87446255" heading="257.662"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label width="180" borderalpha="1" bordercolor="0x000000" border="1" backgroundalpha="1" enabled="1" background="1" textcolor="0x000000" textalpha="1" height="20" wordwrap="1" borderradius="1" backgroundcolor="0xffffff"/>
-      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
-      <hotspot url="{node17}" distance="184.012" tilt="0" skinid="ht_node" target="$fwd" title="空拍視角" description="" pan="221.829" id="Point01"/>
-      <hotspot url="{node23}" distance="107.65" tilt="26.2" skinid="ht_node" target="$fwd" title="空拍視角" description="" pan="34.4488" id="Point03"/>
-      <hotspot url="" target="" title="由此處爬上來" description="攔沙壩霸體高度落差約一公尺左右，由此處踩踏左邊的山壁蹬上來比較容易爬上攔沙壩。" pan="-219.5" id="Point02" tilt="-2.64" skinid="ht_info"/>
-      <hotspot url="" target="" title="小水坑" description="小心此水坑有青苔容易滑腳，踩踏時務必確保腳步站穩後再踏出另外一步" pan="-132.66" id="Point04" tilt="-37.67" skinid="ht_info"/>
+    <userdata description="這裡的攔沙壩高度落差較大，一般會建議先從壩體中央的緩坡走上來，再往左側靠近山壁邊爬上壩頂，比較容易上壩頂。過程中會有小段路需要踩水前行，穿溯溪鞋或防滑鞋可以讓這段路變得輕鬆許多。&#xa;壩旁的水池水色清透，呈現淡藍綠色，是個非常清涼的戲水區域。&#xa;如果走得有點累，這裡是很好的休息點，可以泡泡水、補水、調整體力。&#xa;但因為霸體高度差較大，爬上壩體時一定要注意腳下施力點，留意溼滑的地面。&#xa;" latitude="23.87446255" nodeid="node19" heading="257.662" title="攔沙壩" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." author="" comment="" datetime="2025/9/4 11:49" source="iPhone 16 pro HDR " info="" tags="aerial|Pano" longitude="121.47938937" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label enabled="1" height="20" width="180" textcolor="0x000000" wordwrap="1" borderalpha="1" borderradius="1" backgroundalpha="1" bordercolor="0x000000" border="1" textalpha="1" background="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot pan="221.829" description="" skinid="ht_node" url="{node17}" tilt="0" title="空拍視角" id="Point01" target="$fwd" distance="184.012"/>
+      <hotspot pan="34.8088" description="" skinid="ht_node" url="{node23}" tilt="4.61" title="空拍視角" id="Point03" target="$fwd" distance="107.65"/>
+      <hotspot title="由此處爬上來" pan="-219.5" description="攔沙壩霸體高度落差約一公尺左右，由此處踩踏左邊的山壁蹬上來比較容易爬上攔沙壩。" skinid="ht_info" url="" tilt="-2.64" id="Point02" target=""/>
+      <hotspot title="小水坑" pan="-132.66" description="小心此水坑有青苔容易滑腳，踩踏時務必確保腳步站穩後再踏出另外一步" skinid="ht_info" url="" tilt="-37.67" id="Point04" target=""/>
     </hotspots>
     <media>
-      <sound pan="0.000" id="" tilt="0.000">
-        <source url="media/sunny-side-of-fun-248265.mp3"/>
+      <sound pan="0.000" tilt="0.000" id="">
+        <source url="media/Beau Walker  Jurgance - Summer freetouse.com.mp3"/>
       </sound>
     </media>
-    <transition zoomafterinfov="140" softedge="0" zoomin="0" enabled="1" blendtime="1" zoomout="0" zoomafteroutfov="40" type="crossdissolve" zoomspeed="2" zoomfov="40" delay="none" zoomoutpause="1" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="0" zoomcentercursor="1" contextvr="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" rubberband="0" invertcontrol="1">
-      <menulink url="https://oring-brother.com" text="JP爵攝數位影像工作室"/>
+    <transition enabled="1" softedge="0" blendtime="1" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000" delay="none" zoomin="0" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" type="crossdissolve" zoomout="0"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control contextvr="0" dblclickfullscreen="0" lockedwheel="0" sensitivity="8" lockedmouse="0" hideabout="1" simulatemass="1" zoomcentercursor="1" lockedkeyboard="0" speedwheel="1" lockedkeyboardzoom="0" invertcontrol="1" invertwheel="0" contextfullscreen="0" contextprojections="0" rubberband="0">
+      <menulink text="JP爵攝數位影像工作室" url="https://oring-brother.com"/>
     </control>
   </panorama>
   <panorama hideabout="1" id="node23">
-    <input width="3500" levelingpitch="0" overlap="1" levelbias="0.400" levelbiashidpi="1.000" height="3500" leveltilesize="510" leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
-      <level preload="0" width="3500" height="3500" predecode="0"/>
-      <level preload="0" width="1750" height="1750" predecode="0"/>
-      <level preload="0" width="875" height="875" predecode="0"/>
-      <level preload="1" width="437" height="437" predecode="1"/>
+    <input levelingpitch="0" height="3500" width="3500" leveltilesize="510" levelbias="0.400" levelingroll="0" overlap="1" leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
+      <level height="3500" width="3500" preload="0" predecode="0"/>
+      <level height="1750" width="1750" preload="0" predecode="0"/>
+      <level height="875" width="875" preload="0" predecode="0"/>
+      <level height="437" width="437" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="7.61789" fovmode="2">
-      <start pan="0" tilt="0" projection="4" fov="100"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
-      <min fovpixel="0.3" pan="0" tilt="-90"/>
-      <max fovfisheye="360" pan="360" tilt="90" scaletofit="1" fov="120" fovstereographic="330"/>
+      <start pan="0" fov="100" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="0.3" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" tilt="90" scaletofit="1" fovstereographic="330"/>
     </view>
-    <userdata customnodeid="" nodeid="node23" datetime="2025/9/5 12:09" comment="" longitude="121.47851765" info="" altitude="60.00" title="空拍視角" source="Mavic 2 Pro" description="往下看，整段溪谷在兩側山壁間延伸，溪床越往上游越來越窄，距離主要目的地已經很近了。&#xa;再往上游走大約三、四十公尺，就會抵達傳說中的秘境。&#xa;&#xa;底下的溪流右側可以看見一條更細的支流注入主溪，沿著這個支流往上走，會發現一條不起眼的小徑藏在綠蔭裡。&#xa;順著小徑前行，能抵達上游更深處的另一個攔沙壩，那裡通常是溯溪團體的活動終點，也是一個相對寧靜的自然景點，往那裡的溪谷轉折明顯、坡度較大，若打算前往支流小徑或更上游區域，溯溪鞋、防滑鞋仍然是必要配備。" tags="aerial|Pano" author="" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." latitude="23.87391315" heading="7.61789"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label width="180" borderalpha="1" bordercolor="0x000000" border="1" backgroundalpha="1" enabled="1" background="1" textcolor="0x000000" textalpha="1" height="20" wordwrap="1" borderradius="1" backgroundcolor="0xffffff"/>
-      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
-      <hotspot url="{node19}" distance="107.65" tilt="-42.02" skinid="ht_node" target="$fwd" title="攔沙壩" description="" pan="-35.9365" id="Point01"/>
-      <hotspot url="{node18}" distance="25.828" tilt="-81.8" skinid="ht_node" target="$fwd" title="河道" description="" pan="167.817" id="Point02"/>
+    <userdata description="往下看，整段溪谷在兩側山壁間延伸，溪床越往上游越來越窄，距離主要目的地已經很近了。&#xa;再往上游走大約三、四十公尺，就會抵達傳說中的秘境。&#xa;&#xa;底下的溪流右側可以看見一條更細的支流注入主溪，沿著這個支流往上走，會發現一條不起眼的小徑藏在綠蔭裡。&#xa;順著小徑前行，能抵達上游更深處的另一個攔沙壩，那裡通常是溯溪團體的活動終點，也是一個相對寧靜的自然景點，往那裡的溪谷轉折明顯、坡度較大，若打算前往支流小徑或更上游區域，溯溪鞋、防滑鞋仍然是必要配備。" latitude="23.87391315" altitude="60.00" nodeid="node23" heading="7.61789" title="空拍視角" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." author="" comment="" datetime="2025/9/5 12:09" source="Mavic 2 Pro" info="" tags="aerial|Pano" longitude="121.47851765" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label enabled="1" height="20" width="180" textcolor="0x000000" wordwrap="1" borderalpha="1" borderradius="1" backgroundalpha="1" bordercolor="0x000000" border="1" textalpha="1" background="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-35.1065" description="" skinid="ht_node" url="{node19}" tilt="-6.11" title="攔沙壩" id="Point01" target="$fwd" distance="107.65"/>
+      <hotspot pan="167.817" description="" skinid="ht_node" url="{node18}" tilt="-81.8" title="河道" id="Point02" target="$fwd" distance="25.828"/>
     </hotspots>
     <media>
-      <sound pan="0.000" id="" tilt="0.000">
-        <source url="media/sunny-side-of-fun-248265.mp3"/>
+      <sound pan="0.000" tilt="0.000" id="">
+        <source url="media/Beau Walker  Jurgance - Summer freetouse.com.mp3"/>
       </sound>
     </media>
-    <transition zoomafterinfov="140" softedge="0" zoomin="0" enabled="1" blendtime="1" zoomout="0" zoomafteroutfov="40" type="crossdissolve" zoomspeed="2" zoomfov="40" delay="none" zoomoutpause="1" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="0" zoomcentercursor="1" contextvr="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" rubberband="0" invertcontrol="1">
-      <menulink url="https://oring-brother.com" text="JP爵攝數位影像工作室"/>
+    <transition enabled="1" softedge="0" blendtime="1" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000" delay="none" zoomin="0" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" type="crossdissolve" zoomout="0"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control contextvr="0" dblclickfullscreen="0" lockedwheel="0" sensitivity="8" lockedmouse="0" hideabout="1" simulatemass="1" zoomcentercursor="1" lockedkeyboard="0" speedwheel="1" lockedkeyboardzoom="0" invertcontrol="1" invertwheel="0" contextfullscreen="0" contextprojections="0" rubberband="0">
+      <menulink text="JP爵攝數位影像工作室" url="https://oring-brother.com"/>
     </control>
   </panorama>
   <panorama hideabout="1" id="node18">
-    <input width="3500" levelingpitch="0" overlap="1" levelbias="0.400" levelbiashidpi="1.000" height="3500" leveltilesize="510" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
-      <level preload="0" width="3500" height="3500" predecode="0"/>
-      <level preload="0" width="1750" height="1750" predecode="0"/>
-      <level preload="0" width="875" height="875" predecode="0"/>
-      <level preload="1" width="437" height="437" predecode="1"/>
+    <input levelingpitch="0" height="3500" width="3500" leveltilesize="510" levelbias="0.400" levelingroll="0" overlap="1" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
+      <level height="3500" width="3500" preload="0" predecode="0"/>
+      <level height="1750" width="1750" preload="0" predecode="0"/>
+      <level height="875" width="875" preload="0" predecode="0"/>
+      <level height="437" width="437" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-145.452" fovmode="2">
-      <start pan="0" tilt="0" projection="4" fov="100"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
-      <min fovpixel="0.3" pan="0" tilt="-90"/>
-      <max fovfisheye="360" pan="360" tilt="90" scaletofit="1" fov="120" fovstereographic="330"/>
+      <start pan="0" fov="100" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="0.3" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" tilt="90" scaletofit="1" fovstereographic="330"/>
     </view>
-    <userdata customnodeid="" nodeid="node18" datetime="2025/9/4 11:17" comment="" longitude="121.47842377" info="" title="河道" source="Mavic 2 Pro" description="從這裡起，溪谷的寬度開始明顯收窄，水色也轉成更透亮的淡藍綠，代表著著名的「漂漂河峽谷」就在前面不遠處。&#xa;照片左側可以看到一小片樹蔭覆蓋的平坦區域，這裡相對乾爽、陰涼，是走到目的地前最剛好的休息點。&#xa;許多人會在這裡暫放背包、補充水分、調整裝備，再往前就是比較狹窄、需要踩穩腳步再前行的路段。&#xa;地面多為大石與裸露岩塊，此路段會比前面更滑溜一些，穿著溯溪鞋或防滑鞋會讓這段更容易前進。" tags="aerial|Pano" author="" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." latitude="23.87369732" heading="-145.452"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label width="180" borderalpha="1" bordercolor="0x000000" border="1" backgroundalpha="1" enabled="1" background="1" textcolor="0x000000" textalpha="1" height="20" wordwrap="1" borderradius="1" backgroundcolor="0xffffff"/>
-      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
-      <hotspot url="{node23}" distance="25.828" tilt="13.14" skinid="ht_node" target="$fwd" title="空拍視角" description="" pan="-191.002" id="Point01"/>
-      <hotspot url="{node21}" distance="39.1834" tilt="-9.61" skinid="ht_node" target="$fwd" title="河谷淺水區" description="" pan="356.11" id="Point02"/>
+    <userdata description="從這裡起，溪谷的寬度開始明顯收窄，水色也轉成更透亮的淡藍綠，代表著著名的「漂漂河峽谷」就在前面不遠處。&#xa;照片左側可以看到一小片樹蔭覆蓋的平坦區域，這裡相對乾爽、陰涼，是走到目的地前最剛好的休息點。&#xa;許多人會在這裡暫放背包、補充水分、調整裝備，再往前就是比較狹窄、需要踩穩腳步再前行的路段。&#xa;地面多為大石與裸露岩塊，此路段會比前面更滑溜一些，穿著溯溪鞋或防滑鞋會讓這段更容易前進。" latitude="23.87369732" nodeid="node18" heading="-145.452" title="河道" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." author="" comment="" datetime="2025/9/4 11:17" source="Mavic 2 Pro" info="" tags="aerial|Pano" longitude="121.47842377" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label enabled="1" height="20" width="180" textcolor="0x000000" wordwrap="1" borderalpha="1" borderradius="1" backgroundalpha="1" bordercolor="0x000000" border="1" textalpha="1" background="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-191.072" description="" skinid="ht_node" url="{node23}" tilt="-1.2" title="空拍視角" id="Point01" target="$fwd" distance="25.828"/>
+      <hotspot pan="3.45" description="" skinid="ht_node" url="{node21}" tilt="-9.23" title="河谷淺水區" id="Point02" target="$fwd" distance="39.1834"/>
     </hotspots>
     <media>
-      <sound pan="0.000" id="" tilt="0.000">
-        <source url="media/sunny-side-of-fun-248265.mp3"/>
+      <sound pan="0.000" tilt="0.000" id="">
+        <source url="media/Beau Walker  Jurgance - Summer freetouse.com.mp3"/>
       </sound>
     </media>
-    <transition zoomafterinfov="140" softedge="0" zoomin="0" enabled="1" blendtime="1" zoomout="0" zoomafteroutfov="40" type="crossdissolve" zoomspeed="2" zoomfov="40" delay="none" zoomoutpause="1" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="0" zoomcentercursor="1" contextvr="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" rubberband="0" invertcontrol="1">
-      <menulink url="https://oring-brother.com" text="JP爵攝數位影像工作室"/>
+    <transition enabled="1" softedge="0" blendtime="1" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000" delay="none" zoomin="0" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" type="crossdissolve" zoomout="0"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control contextvr="0" dblclickfullscreen="0" lockedwheel="0" sensitivity="8" lockedmouse="0" hideabout="1" simulatemass="1" zoomcentercursor="1" lockedkeyboard="0" speedwheel="1" lockedkeyboardzoom="0" invertcontrol="1" invertwheel="0" contextfullscreen="0" contextprojections="0" rubberband="0">
+      <menulink text="JP爵攝數位影像工作室" url="https://oring-brother.com"/>
     </control>
   </panorama>
   <panorama hideabout="1" id="node21">
-    <input width="3500" levelingpitch="0" overlap="1" levelbias="0.400" levelbiashidpi="1.000" height="3500" leveltilesize="510" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
-      <level preload="0" width="3500" height="3500" predecode="0"/>
-      <level preload="0" width="1750" height="1750" predecode="0"/>
-      <level preload="0" width="875" height="875" predecode="0"/>
-      <level preload="1" width="437" height="437" predecode="1"/>
+    <input levelingpitch="0" height="3500" width="3500" leveltilesize="510" levelbias="0.400" levelingroll="0" overlap="1" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
+      <level height="3500" width="3500" preload="0" predecode="0"/>
+      <level height="1750" width="1750" preload="0" predecode="0"/>
+      <level height="875" width="875" preload="0" predecode="0"/>
+      <level height="437" width="437" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="184" fovmode="2">
-      <start pan="0" tilt="0" projection="4" fov="100"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
-      <min fovpixel="0.3" pan="0" tilt="-90"/>
-      <max fovfisheye="360" pan="360" tilt="90" scaletofit="1" fov="120" fovstereographic="330"/>
+      <start pan="0" fov="100" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="0.3" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" tilt="90" scaletofit="1" fovstereographic="330"/>
     </view>
-    <userdata customnodeid="" nodeid="node21" datetime="2025/9/5 11:08" comment="" longitude="121.47826552" info="" title="河谷淺水區" source="iPhone 16 pro HDR " description="這裡就是大家一路走來最期待的漂漂河峽谷的末端。&#xa;&#xa;枯水期的水深大約只到成年人小腿一半，水色透明到連底部的礫石紋路與小魚游動都能清楚看到，因為水流平穩、水深安全，是小朋友戲水最推薦的區域。&#xa;&#xa;再往前約十公尺後，溪谷突然收窄，水深會明顯變深，是大人漂浮、體驗水流的區域。&#xa;若同行中有孩童，建議以此區作為活動範圍最剛好。&#xa;&#xa;不知道是否是此地很容易把石頭立起來，可以看到周邊有許多石頭立起來。在水流不斷沖刷的情況下還穩穩地立著，這些創作者的功力不凡。" tags="aerial|Pano" author="" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." latitude="23.87337602" heading="184"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label width="180" borderalpha="1" bordercolor="0x000000" border="1" backgroundalpha="1" enabled="1" background="1" textcolor="0x000000" textalpha="1" height="20" wordwrap="1" borderradius="1" backgroundcolor="0xffffff"/>
-      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
-      <hotspot url="{node25}" distance="60.5619" tilt="0.92" skinid="ht_node" target="$fwd" title="漂漂河・末段" description="" pan="7.42901" id="Point02"/>
-      <hotspot url="{node18}" distance="39.1834" tilt="0" skinid="ht_node" target="$fwd" title="河道" description="" pan="159.754" id="Point01"/>
+    <userdata description="這裡就是大家一路走來最期待的漂漂河峽谷的末端。&#xa;&#xa;枯水期的水深大約只到成年人小腿一半，水色透明到連底部的礫石紋路與小魚游動都能清楚看到，因為水流平穩、水深安全，是小朋友戲水最推薦的區域。&#xa;&#xa;再往前約十公尺後，溪谷突然收窄，水深會明顯變深，是大人漂浮、體驗水流的區域。&#xa;若同行中有孩童，建議以此區作為活動範圍最剛好。&#xa;&#xa;不知道是否是此地很容易把石頭立起來，可以看到周邊有許多石頭立起來。在水流不斷沖刷的情況下還穩穩地立著，這些創作者的功力不凡。" latitude="23.87337602" nodeid="node21" heading="184" title="河谷淺水區" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." author="" comment="" datetime="2025/9/5 11:08" source="iPhone 16 pro HDR " info="" tags="aerial|Pano" longitude="121.47826552" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label enabled="1" height="20" width="180" textcolor="0x000000" wordwrap="1" borderalpha="1" borderradius="1" backgroundalpha="1" bordercolor="0x000000" border="1" textalpha="1" background="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot pan="7.42901" description="" skinid="ht_node" url="{node25}" tilt="0.92" title="漂漂河・末段" id="Point02" target="$fwd" distance="60.5619"/>
+      <hotspot pan="159.754" description="" skinid="ht_node" url="{node18}" tilt="0" title="河道" id="Point01" target="$fwd" distance="39.1834"/>
     </hotspots>
     <media>
-      <sound pan="0.000" id="" tilt="0.000">
-        <source url="media/sunny-side-of-fun-248265.mp3"/>
+      <sound pan="0.000" tilt="0.000" id="">
+        <source url="media/Beau Walker  Jurgance - Summer freetouse.com.mp3"/>
       </sound>
     </media>
-    <transition zoomafterinfov="140" softedge="0" zoomin="0" enabled="1" blendtime="1" zoomout="0" zoomafteroutfov="40" type="crossdissolve" zoomspeed="2" zoomfov="40" delay="none" zoomoutpause="1" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="0" zoomcentercursor="1" contextvr="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" rubberband="0" invertcontrol="1">
-      <menulink url="https://oring-brother.com" text="JP爵攝數位影像工作室"/>
+    <transition enabled="1" softedge="0" blendtime="1" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000" delay="none" zoomin="0" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" type="crossdissolve" zoomout="0"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control contextvr="0" dblclickfullscreen="0" lockedwheel="0" sensitivity="8" lockedmouse="0" hideabout="1" simulatemass="1" zoomcentercursor="1" lockedkeyboard="0" speedwheel="1" lockedkeyboardzoom="0" invertcontrol="1" invertwheel="0" contextfullscreen="0" contextprojections="0" rubberband="0">
+      <menulink text="JP爵攝數位影像工作室" url="https://oring-brother.com"/>
     </control>
   </panorama>
   <panorama hideabout="1" id="node25">
-    <input width="4000" levelingpitch="0" overlap="1" levelbias="0.400" levelbiashidpi="1.000" height="4000" leveltilesize="510" leveltileurl="tiles/node25/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
-      <level preload="0" width="4000" height="4000" predecode="0"/>
-      <level preload="0" width="2000" height="2000" predecode="0"/>
-      <level preload="0" width="1000" height="1000" predecode="0"/>
-      <level preload="1" width="500" height="500" predecode="1"/>
+    <input levelingpitch="0" height="4000" width="4000" leveltilesize="510" levelbias="0.400" levelingroll="0" overlap="1" leveltileurl="tiles/node25/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
+      <level height="4000" width="4000" preload="0" predecode="0"/>
+      <level height="2000" width="2000" preload="0" predecode="0"/>
+      <level height="1000" width="1000" preload="0" predecode="0"/>
+      <level height="500" width="500" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="184.122" fovmode="2">
-      <start pan="0" tilt="0" projection="4" fov="100"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
-      <min fovpixel="0.3" pan="0" tilt="-90"/>
-      <max fovfisheye="360" pan="360" tilt="90" scaletofit="1" fov="120" fovstereographic="330"/>
+      <start pan="0" fov="100" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="0.3" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" tilt="90" scaletofit="1" fovstereographic="330"/>
     </view>
-    <userdata customnodeid="" nodeid="node25" datetime="2025/9/5 11:01" comment="" longitude="121.47824836" info="" altitude="193.98" title="漂漂河・末段" source="iPhone 16 pro HDR " description="這裡是漂漂河峽谷中最清涼、最能感受到山林包覆感的一段。&#xa;此時的水深大約到成年人的腰部，水色透明而冷冽，是夏天最受歡迎的漂浮區域。&#xa;&#xa;有許多遊客帶著泳圈、充氣小船在水面慢慢飄著，在這種山林光影下漂浮，是非常放鬆的體驗。&#xa;&#xa;大雨過後水位會升高，溪谷右邊的大岩石也會變成年輕人常挑戰的跳水點，不過水深會因季節和雨量變化，跳水前務必確認水深是否能夠安全進行跳水活動。" tags="iphone16pro|Pano" author="" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." latitude="23.87283160" heading="184.122"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label width="180" borderalpha="1" bordercolor="0x000000" border="1" backgroundalpha="1" enabled="1" background="1" textcolor="0x000000" textalpha="1" height="20" wordwrap="1" borderradius="1" backgroundcolor="0xffffff"/>
-      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
-      <hotspot url="{node21}" distance="60.5619" tilt="0" skinid="ht_node" target="$fwd" title="河谷淺水區" description="" pan="182.471" id="Point01"/>
-      <hotspot url="{node26}" distance="51.8283" tilt="-0.69" skinid="ht_node" target="$fwd" title="漂漂河・深水段" description="" pan="-356.23" id="Point02"/>
+    <userdata description="這裡是漂漂河峽谷中最清涼、最能感受到山林包覆感的一段。&#xa;此時的水深大約到成年人的腰部，水色透明而冷冽，是夏天最受歡迎的漂浮區域。&#xa;&#xa;有許多遊客帶著泳圈、充氣小船在水面慢慢飄著，在這種山林光影下漂浮，是非常放鬆的體驗。&#xa;&#xa;大雨過後水位會升高，溪谷右邊的大岩石也會變成年輕人常挑戰的跳水點，不過水深會因季節和雨量變化，跳水前務必確認水深是否能夠安全進行跳水活動。" latitude="23.87283160" altitude="193.98" nodeid="node25" heading="184.122" title="漂漂河・末段" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." author="" comment="" datetime="2025/9/5 11:01" source="iPhone 16 pro HDR " info="" tags="iphone16pro|Pano" longitude="121.47824836" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label enabled="1" height="20" width="180" textcolor="0x000000" wordwrap="1" borderalpha="1" borderradius="1" backgroundalpha="1" bordercolor="0x000000" border="1" textalpha="1" background="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot pan="182.471" description="" skinid="ht_node" url="{node21}" tilt="0" title="河谷淺水區" id="Point01" target="$fwd" distance="60.5619"/>
+      <hotspot pan="-356.23" description="" skinid="ht_node" url="{node26}" tilt="-0.69" title="漂漂河・深水段" id="Point02" target="$fwd" distance="51.8283"/>
     </hotspots>
     <media>
-      <sound pan="0.000" id="" tilt="0.000">
-        <source url="media/sunny-side-of-fun-248265.mp3"/>
+      <sound pan="0.000" tilt="0.000" id="">
+        <source url="media/Beau Walker  Jurgance - Summer freetouse.com.mp3"/>
       </sound>
     </media>
-    <transition zoomafterinfov="140" softedge="0" zoomin="0" enabled="1" blendtime="1" zoomout="0" zoomafteroutfov="40" type="crossdissolve" zoomspeed="2" zoomfov="40" delay="none" zoomoutpause="1" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="0" zoomcentercursor="1" contextvr="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" rubberband="0" invertcontrol="1">
-      <menulink url="https://oring-brother.com" text="JP爵攝數位影像工作室"/>
+    <transition enabled="1" softedge="0" blendtime="1" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000" delay="none" zoomin="0" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" type="crossdissolve" zoomout="0"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control contextvr="0" dblclickfullscreen="0" lockedwheel="0" sensitivity="8" lockedmouse="0" hideabout="1" simulatemass="1" zoomcentercursor="1" lockedkeyboard="0" speedwheel="1" lockedkeyboardzoom="0" invertcontrol="1" invertwheel="0" contextfullscreen="0" contextprojections="0" rubberband="0">
+      <menulink text="JP爵攝數位影像工作室" url="https://oring-brother.com"/>
     </control>
   </panorama>
   <panorama hideabout="1" id="node26">
-    <input width="2577" levelingpitch="0" overlap="1" levelbias="0.400" levelbiashidpi="1.000" height="2577" leveltilesize="510" leveltileurl="tiles/node26/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
-      <level preload="0" width="2577" height="2577" predecode="0"/>
-      <level preload="0" width="1288" height="1288" predecode="0"/>
-      <level preload="0" width="644" height="644" predecode="0"/>
-      <level preload="1" width="322" height="322" predecode="1"/>
+    <input levelingpitch="0" height="2577" width="2577" leveltilesize="510" levelbias="0.400" levelingroll="0" overlap="1" leveltileurl="tiles/node26/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
+      <level height="2577" width="2577" preload="0" predecode="0"/>
+      <level height="1288" width="1288" preload="0" predecode="0"/>
+      <level height="644" width="644" preload="0" predecode="0"/>
+      <level height="322" width="322" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-90.8342" fovmode="2">
-      <start pan="0" tilt="0" projection="4" fov="100"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
-      <min fovpixel="0.3" pan="0" tilt="-90"/>
-      <max fovfisheye="360" pan="360" tilt="90" scaletofit="1" fov="120" fovstereographic="330"/>
+      <start pan="0" fov="100" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="0.3" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" tilt="90" scaletofit="1" fovstereographic="330"/>
     </view>
-    <userdata customnodeid="" nodeid="node26" datetime="2025/9/5 11:37" comment="" longitude="121.47815824" info="" altitude="0.00" title="漂漂河・深水段" source="Insta360 X4" description="此處水流緩慢，水深約莫及腰（枯水期）兩側岩壁造就了峽谷樣貌，就是「漂漂河峽谷」這個稱號的由來。水質清澈見底，在陽光的照射作用下，溪水成碧綠色，小魚隨處可見。" tags="insta360x4|PTGuioutput" author="" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." latitude="23.87237284" heading="-90.8342"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label width="180" borderalpha="1" bordercolor="0x000000" border="1" backgroundalpha="1" enabled="1" background="1" textcolor="0x000000" textalpha="1" height="20" wordwrap="1" borderradius="1" backgroundcolor="0xffffff"/>
-      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
-      <hotspot url="{node27}" distance="46.7009" tilt="3.63" skinid="ht_node" target="$fwd" title="漂漂河・前段" description="" pan="-302.47" id="Point01"/>
-      <hotspot url="{node25}" distance="51.8283" tilt="-0.35" skinid="ht_node" target="$fwd" title="漂漂河・末段" description="" pan="-124.868" id="Point02"/>
+    <userdata description="此處水流緩慢，水深約莫及腰（枯水期）兩側岩壁造就了峽谷樣貌，就是「漂漂河峽谷」這個稱號的由來。水質清澈見底，在陽光的照射作用下，溪水成碧綠色，小魚隨處可見。" latitude="23.87237284" altitude="0.00" nodeid="node26" heading="-90.8342" title="漂漂河・深水段" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." author="" comment="" datetime="2025/9/5 11:37" source="Insta360 X4" info="" tags="insta360x4|PTGuioutput" longitude="121.47815824" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label enabled="1" height="20" width="180" textcolor="0x000000" wordwrap="1" borderalpha="1" borderradius="1" backgroundalpha="1" bordercolor="0x000000" border="1" textalpha="1" background="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-302.47" description="" skinid="ht_node" url="{node27}" tilt="3.63" title="漂漂河・前段" id="Point01" target="$fwd" distance="46.7009"/>
+      <hotspot pan="-124.868" description="" skinid="ht_node" url="{node25}" tilt="-0.35" title="漂漂河・末段" id="Point02" target="$fwd" distance="51.8283"/>
     </hotspots>
     <media>
-      <sound pan="0.000" id="" tilt="0.000">
-        <source url="media/sunny-side-of-fun-248265.mp3"/>
+      <sound pan="0.000" tilt="0.000" id="">
+        <source url="media/Beau Walker  Jurgance - Summer freetouse.com.mp3"/>
       </sound>
     </media>
-    <transition zoomafterinfov="140" softedge="0" zoomin="0" enabled="1" blendtime="1" zoomout="0" zoomafteroutfov="40" type="crossdissolve" zoomspeed="2" zoomfov="40" delay="none" zoomoutpause="1" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="0" zoomcentercursor="1" contextvr="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" rubberband="0" invertcontrol="1">
-      <menulink url="https://oring-brother.com" text="JP爵攝數位影像工作室"/>
+    <transition enabled="1" softedge="0" blendtime="1" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000" delay="none" zoomin="0" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" type="crossdissolve" zoomout="0"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control contextvr="0" dblclickfullscreen="0" lockedwheel="0" sensitivity="8" lockedmouse="0" hideabout="1" simulatemass="1" zoomcentercursor="1" lockedkeyboard="0" speedwheel="1" lockedkeyboardzoom="0" invertcontrol="1" invertwheel="0" contextfullscreen="0" contextprojections="0" rubberband="0">
+      <menulink text="JP爵攝數位影像工作室" url="https://oring-brother.com"/>
     </control>
   </panorama>
   <panorama hideabout="1" id="node27">
-    <input width="2572" levelingpitch="0" overlap="1" levelbias="0.400" levelbiashidpi="1.000" height="2572" leveltilesize="510" leveltileurl="tiles/node27/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
-      <level preload="0" width="2572" height="2572" predecode="0"/>
-      <level preload="0" width="1286" height="1286" predecode="0"/>
-      <level preload="0" width="643" height="643" predecode="0"/>
-      <level preload="1" width="321" height="321" predecode="1"/>
+    <input levelingpitch="0" height="2572" width="2572" leveltilesize="510" levelbias="0.400" levelingroll="0" overlap="1" leveltileurl="tiles/node27/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
+      <level height="2572" width="2572" preload="0" predecode="0"/>
+      <level height="1286" width="1286" preload="0" predecode="0"/>
+      <level height="643" width="643" preload="0" predecode="0"/>
+      <level height="321" width="321" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-9.6887" fovmode="2">
-      <start pan="0" tilt="0" projection="4" fov="100"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
-      <min fovpixel="0.3" pan="0" tilt="-90"/>
-      <max fovfisheye="360" pan="360" tilt="90" scaletofit="1" fov="120" fovstereographic="330"/>
+      <start pan="0" fov="100" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="0.3" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" tilt="90" scaletofit="1" fovstereographic="330"/>
     </view>
-    <userdata customnodeid="" nodeid="node27" datetime="2025/9/5 11:40" comment="" longitude="121.47804558" info="" altitude="0.00" title="漂漂河・前段" source="Insta360 X4" description="再往前探索就是另外一個秘境，不過要先越過高約1.5公尺落差的岩石堆，爬過岩石後是另外一個淺灘區。當豐水期時，那裡也是個戲水的好區域，並且可以使用小型獨木舟進行泛舟活動。&#xa;溯溪者需要迎著上方的水流攀爬，是較具挑戰性的路段，建議具備合宜裝備（溯溪鞋、防寒衣、安全帽）並且攜伴同行再嘗試通過。&#xa;" tags="insta360x4|PTGuioutput" author="" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." latitude="23.87196568" heading="-9.6887"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label width="180" borderalpha="1" bordercolor="0x000000" border="1" backgroundalpha="1" enabled="1" background="1" textcolor="0x000000" textalpha="1" height="20" wordwrap="1" borderradius="1" backgroundcolor="0xffffff"/>
-      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
-      <hotspot url="{node26}" distance="46.7009" tilt="1.04" skinid="ht_node" target="$fwd" title="漂漂河・深水段" description="" pan="-30.908" id="Point01"/>
-      <hotspot url="{node24}" distance="56.9075" tilt="22.62" skinid="ht_node" target="$fwd" title="秘境・Ｘ" description="" pan="162.953" id="Point02"/>
+    <userdata description="再往前探索就是另外一個秘境，不過要先越過高約1.5公尺落差的岩石堆，爬過岩石後是另外一個淺灘區。當豐水期時，那裡也是個戲水的好區域，並且可以使用小型獨木舟進行泛舟活動。&#xa;溯溪者需要迎著上方的水流攀爬，是較具挑戰性的路段，建議具備合宜裝備（溯溪鞋、防寒衣、安全帽）並且攜伴同行再嘗試通過。&#xa;" latitude="23.87196568" altitude="0.00" nodeid="node27" heading="-9.6887" title="漂漂河・前段" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." author="" comment="" datetime="2025/9/5 11:40" source="Insta360 X4" info="" tags="insta360x4|PTGuioutput" longitude="121.47804558" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label enabled="1" height="20" width="180" textcolor="0x000000" wordwrap="1" borderalpha="1" borderradius="1" backgroundalpha="1" bordercolor="0x000000" border="1" textalpha="1" background="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-30.908" description="" skinid="ht_node" url="{node26}" tilt="1.04" title="漂漂河・深水段" id="Point01" target="$fwd" distance="46.7009"/>
+      <hotspot pan="164.663" description="" skinid="ht_node" url="{node24}" tilt="0.53" title="秘境・Ｘ" id="Point02" target="$fwd" distance="56.9075"/>
     </hotspots>
     <media>
-      <sound pan="0.000" id="" tilt="0.000">
-        <source url="media/sunny-side-of-fun-248265.mp3"/>
+      <sound pan="0.000" tilt="0.000" id="">
+        <source url="media/Beau Walker  Jurgance - Summer freetouse.com.mp3"/>
       </sound>
     </media>
-    <transition zoomafterinfov="140" softedge="0" zoomin="0" enabled="1" blendtime="1" zoomout="0" zoomafteroutfov="40" type="crossdissolve" zoomspeed="2" zoomfov="40" delay="none" zoomoutpause="1" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="0" zoomcentercursor="1" contextvr="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" rubberband="0" invertcontrol="1">
-      <menulink url="https://oring-brother.com" text="JP爵攝數位影像工作室"/>
+    <transition enabled="1" softedge="0" blendtime="1" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000" delay="none" zoomin="0" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" type="crossdissolve" zoomout="0"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control contextvr="0" dblclickfullscreen="0" lockedwheel="0" sensitivity="8" lockedmouse="0" hideabout="1" simulatemass="1" zoomcentercursor="1" lockedkeyboard="0" speedwheel="1" lockedkeyboardzoom="0" invertcontrol="1" invertwheel="0" contextfullscreen="0" contextprojections="0" rubberband="0">
+      <menulink text="JP爵攝數位影像工作室" url="https://oring-brother.com"/>
     </control>
   </panorama>
   <panorama hideabout="1" id="node24">
-    <input width="3500" levelingpitch="0" overlap="1" levelbias="0.400" levelbiashidpi="1.000" height="3500" leveltilesize="510" leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
-      <level preload="0" width="3500" height="3500" predecode="0"/>
-      <level preload="0" width="1750" height="1750" predecode="0"/>
-      <level preload="0" width="875" height="875" predecode="0"/>
-      <level preload="1" width="437" height="437" predecode="1"/>
+    <input levelingpitch="0" height="3500" width="3500" leveltilesize="510" levelbias="0.400" levelingroll="0" overlap="1" leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
+      <level height="3500" width="3500" preload="0" predecode="0"/>
+      <level height="1750" width="1750" preload="0" predecode="0"/>
+      <level height="875" width="875" preload="0" predecode="0"/>
+      <level height="437" width="437" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-2.04273" fovmode="2">
-      <start pan="0" tilt="0" projection="4" fov="100"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
-      <min fovpixel="0.3" pan="0" tilt="-90"/>
-      <max fovfisheye="360" pan="360" tilt="90" scaletofit="1" fov="120" fovstereographic="330"/>
+      <start pan="0" fov="100" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="0.3" tilt="-90"/>
+      <max pan="360" fov="120" fovfisheye="360" tilt="90" scaletofit="1" fovstereographic="330"/>
     </view>
-    <userdata customnodeid="" nodeid="node24" datetime="2025/9/5 12:13" comment="" longitude="121.47769957" info="" altitude="60.00" title="秘境・Ｘ" source="iPhone 16 pro HDR " description="底下是從漂漂河峽谷往上游越過高約1.5 公尺的石頭堆後的秘境。&#xa;河道左側那塊接近三公尺高的大岩面，在水位較高的季節，可以在岩石上頭進行跳水。岩石側邊也能看到固定過的繩索，方便從水中攀回岸上。&#xa;&#xa;再往更上游走，溪谷變得更狹窄、地形更崎嶇，雖然也有另一段秘境景色，但行走難度較高，不建議沒有經驗者單獨前往。&#xa;&#xa;由於此處位於山谷深處，整段區域大多沒有手機訊號，若發生意外難以立即獲得協助，請務必斟酌體能與裝備，再決定是否更深入的探索。" tags="aerial|Pano" author="" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." latitude="23.87156343" heading="-2.04273"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label width="180" borderalpha="1" bordercolor="0x000000" border="1" backgroundalpha="1" enabled="1" background="1" textcolor="0x000000" textalpha="1" height="20" wordwrap="1" borderradius="1" backgroundcolor="0xffffff"/>
-      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
-      <hotspot url="{node27}" distance="56.9075" tilt="-46.66" skinid="ht_node" target="$fwd" title="漂漂河・前段" description="" pan="-39.3313" id="Point01"/>
+    <userdata description="底下是從漂漂河峽谷往上游越過高約1.5 公尺的石頭堆後的秘境。&#xa;河道左側那塊接近三公尺高的大岩面，在水位較高的季節，可以在岩石上頭進行跳水。岩石側邊也能看到固定過的繩索，方便從水中攀回岸上。&#xa;&#xa;再往更上游走，溪谷變得更狹窄、地形更崎嶇，雖然也有另一段秘境景色，但行走難度較高，不建議沒有經驗者單獨前往。&#xa;&#xa;由於此處位於山谷深處，整段區域大多沒有手機訊號，若發生意外難以立即獲得協助，請務必斟酌體能與裝備，再決定是否更深入的探索。" latitude="23.87156343" altitude="60.00" nodeid="node24" heading="-2.04273" title="秘境・Ｘ" copyright="© 2025 JP爵攝數位影像工作室 (JP Image Studio). All rights reserved." author="" comment="" datetime="2025/9/5 12:13" source="iPhone 16 pro HDR " info="" tags="aerial|Pano" longitude="121.47769957" customnodeid=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label enabled="1" height="20" width="180" textcolor="0x000000" wordwrap="1" borderalpha="1" borderradius="1" backgroundalpha="1" bordercolor="0x000000" border="1" textalpha="1" background="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-19.4413" description="" skinid="ht_node" url="{node27}" tilt="-16.3" title="漂漂河・前段" id="Point01" target="$fwd" distance="56.9075"/>
     </hotspots>
     <media>
-      <sound pan="0.000" id="" tilt="0.000">
-        <source url="media/sunny-side-of-fun-248265.mp3"/>
+      <sound pan="0.000" tilt="0.000" id="">
+        <source url="media/Beau Walker  Jurgance - Summer freetouse.com.mp3"/>
       </sound>
     </media>
-    <transition zoomafterinfov="140" softedge="0" zoomin="0" enabled="1" blendtime="1" zoomout="0" zoomafteroutfov="40" type="crossdissolve" zoomspeed="2" zoomfov="40" delay="none" zoomoutpause="1" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control invertwheel="0" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" contextfullscreen="0" zoomcentercursor="1" contextvr="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" sensitivity="8" hideabout="1" lockedkeyboardzoom="0" speedwheel="1" rubberband="0" invertcontrol="1">
-      <menulink url="https://oring-brother.com" text="JP爵攝數位影像工作室"/>
+    <transition enabled="1" softedge="0" blendtime="1" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000" delay="none" zoomin="0" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" type="crossdissolve" zoomout="0"/>
+    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control contextvr="0" dblclickfullscreen="0" lockedwheel="0" sensitivity="8" lockedmouse="0" hideabout="1" simulatemass="1" zoomcentercursor="1" lockedkeyboard="0" speedwheel="1" lockedkeyboardzoom="0" invertcontrol="1" invertwheel="0" contextfullscreen="0" contextprojections="0" rubberband="0">
+      <menulink text="JP爵攝數位影像工作室" url="https://oring-brother.com"/>
     </control>
   </panorama>
   <masternode>
-    <userdata title="花蓮景點｜白鮑溪漂漂河" description="由 JP爵攝數位影像工作室拍攝與製作的高品質虛擬導覽，採用 iphone 16 pro拍攝，完整呈現花蓮縣消暑熱點「白鮑溪上游秘境」的空間與環境細節。&#xa;" tags="" author="JP爵攝數位影像工作室 | JP Image Studio&#xa;" copyright="JP爵攝數位影像工作室 | JP Image Studio&#xa;" comment=""/>
+    <userdata title="花蓮景點｜白鮑溪漂漂河" description="由 JP爵攝數位影像工作室拍攝與製作的高品質虛擬導覽，採用 iphone 16 pro拍攝，完整呈現花蓮縣消暑熱點「白鮑溪上游秘境」的空間與環境細節。&#xa;" copyright="JP爵攝數位影像工作室 | JP Image Studio&#xa;" author="JP爵攝數位影像工作室 | JP Image Studio&#xa;" comment="" tags=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
@@ -336,5 +336,5 @@
       <projecttranslation langcode="ko" langname="한국어"/>
     </translations>
   </masternode>
-  <map mapprovider="openstreetmap" googlecustomstylecode="" index="0" mapstyle="streets" type="web" title="" mapurltemplate="http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" id="Map01" mapmaxzoom="18"/>
+  <map mapurltemplate="http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" mapmaxzoom="18" mapstyle="streets" index="0" title="" mapprovider="openstreetmap" googlecustomstylecode="" type="web" id="Map01"/>
 </tour>
